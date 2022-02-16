@@ -47,9 +47,7 @@ para tal.
 
     1.3 Objetivo geral
 
-O aluno deve escrever um pequeno parágrafo ou frase com o **objetivo geral** do trabalho. 
-O objetivo deve ser bem direto, específico e definido com verbos de ação (elaborar, propor, ava-liar, comparar etc.).
-
+O objetivo principal do Drunk&Drink é automatizar os buffets de drink para que não haja imprevistos na organização do buffet e entregar um menor tempo de espera, proporcionando melhor qualidade de serviço e melhor qualidade de atendimento ao cliente
         1.3.1 Objetivos específicos
 
 Apresente também alguns (pelo menos 2) **objetivos específicos** dependendo de onde você vai querer 
