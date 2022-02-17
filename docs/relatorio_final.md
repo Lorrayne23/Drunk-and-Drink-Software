@@ -1,18 +1,20 @@
-# TITULO DO PROJETO
+# Drunk&Drink
 
 
-**Nome completo do Aluno 1, email do aluno 1**
+**Pablo Augusto Carneiro Magalhães, pablo.magalhaes@sga.pucminas.br**
 
-**Nome completo do Aluno 2, email do aluno 2**
+**Nathan Gonçalves de Oliveira,nathan.oliveira@sga.pucminas.br**
 
-**Nome completo do Aluno 3, email do aluno 3**
+**Victor Hugo Criscollo Moreira,victor.criscollo@sga.pucminas.br**
+
+**Isabela Mendonça Silveira,isabela.silveira@sga.pucminas.br**
 
 ---
 
 Professores:
 
-** Prof. NOme do Prof 1 **
-** Prof. NOme do Prof 2 **
+** Prof. Hugo Bastos de Paula **
+** Prof. Joyce Christina de Paiva Carvalho**
 
 ---
 
