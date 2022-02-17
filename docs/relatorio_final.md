@@ -50,12 +50,19 @@ O problema a ser enfrentado é o de organização.Em meio a grande demanda desse
 
 O objetivo principal do Drunk&Drink é automatizar os buffets de drink para que não haja imprevistos na organização do buffet e entregar um menor tempo de espera, proporcionando melhor qualidade de serviço e melhor qualidade de atendimento ao cliente
 
-    1.3.1 Objetivos específicos
+    1.3.1 – Objetivo Específico
 
-Apresente também alguns (pelo menos 2) **objetivos específicos** dependendo de onde você vai querer 
-concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+# 1.3.1 - Objetivo Específico 
 
-    1.4 Justificativas
+ - Analisar a razão pelo qual buffets, em geral, atrasam em meio a imprevistos;
+	
+ - Aprimorar a qualidade de serviço e, consequentemente, o atendimento ao cliente;
+	
+ - Diminuir a taxa de desperdício de alimentos;
+	
+ - Proporcionar, aos clientes, atendimentos mais ágeis.
+   
+   1.4 Justificativas
 
 Mostre também as **justificativas** para o 
 desenvolvimento do seu trabalho e, caso deseje, desta-que alguma contribuição do trabalho.
