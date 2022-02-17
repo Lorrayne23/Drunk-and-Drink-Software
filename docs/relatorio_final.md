@@ -30,7 +30,9 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 ## 1. Introdução
 
-A introdução deve apresentar de dois ou quatro parágrafos de contextualização do trabalho. 
+Buffets de drink sempre foi e sempre será uma tendências nas festas, sempre que há uma comemoração as pessoas organizadoras optam por chamar esses buffets com o intuito de trazer uma opção maior de bebidas além da diversão da maioria, por se tratar de bebidas alcoólicas mais fortes do que apenas uma cerveja.
+Um dos grandes problemas vividos por esses buffets, além dos bartenders, é a incapacidade de lidar bem com imprevistos e da grande fila de espera que se dá, grande a quantidade de clientes buscando o drink ao mesmo tempo. Por ser um trabalho manual e sem previsão do quanto será gasto, é certo que todos tenham que lidar com imprevistos.
+Pensando nisso a Drunk&Drink vem com o objetivo de automatizar esse processo, fazendo com que a quantidade de imprevistos diminua e acabe com a fila de espera.
 
     1.1 Contextualização
 
@@ -45,7 +47,8 @@ O problema a ser enfrentado é o de organização.Em meio a grande demanda desse
     1.3 Objetivo geral
 
 O objetivo principal do Drunk&Drink é automatizar os buffets de drink para que não haja imprevistos na organização do buffet e entregar um menor tempo de espera, proporcionando melhor qualidade de serviço e melhor qualidade de atendimento ao cliente
-        1.3.1 Objetivos específicos
+
+    1.3.1 Objetivos específicos
 
 Apresente também alguns (pelo menos 2) **objetivos específicos** dependendo de onde você vai querer 
 concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
