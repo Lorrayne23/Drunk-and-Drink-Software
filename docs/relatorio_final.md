@@ -34,9 +34,9 @@ A introdução deve apresentar de dois ou quatro parágrafos de contextualizaç�
 
     1.1 Contextualização
 
-Na **contextualização**, o aluno deve dizer do que se trata o trabalho, em que área ou contexto se insere. 
-A **contextualização** deve ser desenvolvida de algo mais genérico para algo mais específico. 
-A citação de pesquisas quantitativas é bem aceita aqui (corretamente referenciadas).
+É uma tendência em festas,eventos e casamentos ter um bar servindo drinks preparados por bartenders.Diferentemente do buffet,que é alinhado com algumas bebidas 
+que já são servidas nesse pacote,um bar pode fazer toda a diferença no evento e surpreender os convidados.É necessário organização,agilidade e qualidade para além 
+de fazer bebidas,criar sensações e bem-estar pra quem está curtindo naquele momento.
 
     1.2 Problema
 
