@@ -40,10 +40,7 @@ de fazer bebidas,criar sensações e bem-estar pra quem está curtindo naquele m
 
     1.2 Problema
 
-Em seguida o aluno deve caminhar a contextualização para descrever o **problema** que o artigo trata. 
-O **problema** pode ser algo vivido em uma empresa específica. Neste caso, o aluno deve rapidamente apresentar 
-o cenário de problema da empresa. A empresa só deve ser citada explicitamente se o aluno tiver autorização 
-para tal.
+O problema a ser enfrentado é o de organização.Em meio a grande demanda desse produto/serviço e de suas várias etapas para se ter um evento de sucesso,a sobrecarga dos coordenadores pode acarretar em imprevistos que geram constrangimento com o contratante em relação a sua empresa.
 
     1.3 Objetivo geral
 
