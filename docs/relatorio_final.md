@@ -70,7 +70,8 @@ desenvolvimento do seu trabalho e, caso deseje, desta-que alguma contribuição 
 
 ## 2. Participantes do processo
 
-Apresente aqui os diferentes perfis dos Stakeholders (participantes do processo) chave do sistema. Diversas são as informações que podem ser relevantes para a definição dos perfis dos usuários, tais como idade, gênero, aspectos culturais, nível de educação, entre outros. A pesquisa de mercado pode ser uma ferramenta poderosa para se identificar e caracterizar os perfis de usuários.
+Os principais perfis de stakeholders do nosso projeto são: pessoas ou empresas responsáveis por organizar os eventos; festas de 15 anos; casamentos; formaturas e entre outros.
+Tendo assim como objetivo principal ajudas os stakeholders a ter um buffet de drinks mais organizado e agil, em seus eventos
 
 ## 3. Modelagem do processo de negócio
 
