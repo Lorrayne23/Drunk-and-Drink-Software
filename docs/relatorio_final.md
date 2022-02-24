@@ -49,7 +49,7 @@ O problema relacionado com a comunicação é a relação entre coordenador e ba
 - Atendimento:
 	Quando pensamos no lado do cliente/convidado do evento, a experiência que ele terá é importante para o sucesso do negócio. Diminuir o tempo de espera na fila é um problema a ser superado.
 
-    1.3 Objetivo geral
+      1.3 Objetivo geral
 
 O objetivo principal do Drunk&Drink é automatizar os buffets de drink para que não haja imprevistos na organização do buffet e entregar um menor tempo de espera, proporcionando melhor qualidade de serviço e melhor qualidade de atendimento ao cliente
 
