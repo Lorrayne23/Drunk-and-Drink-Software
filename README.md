@@ -1,17 +1,18 @@
 # Nome do projeto
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Isabela Mendonça Silveira 
+* Nathan Gonçalves de Oliveira
+* Pablo Augusto Carneiro Magalhães
+* Victor Hugo Criscollo Moreira
 
 ## Professor
 
-* Nome completo do professor
+* Hugo Bastos de Paula
+* Joyce Christina de Paiva Carvalho
 
 ## Instruções de utilização
 
