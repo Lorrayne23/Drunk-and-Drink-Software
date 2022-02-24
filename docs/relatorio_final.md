@@ -32,15 +32,11 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 ## 1. Introdução
 
-Buffets de drink sempre foi e sempre será uma tendências nas festas, sempre que há uma comemoração as pessoas organizadoras optam por chamar esses buffets com o intuito de trazer uma opção maior de bebidas além da diversão da maioria, por se tratar de bebidas alcoólicas mais fortes do que apenas uma cerveja.
-Um dos grandes problemas vividos por esses buffets, além dos bartenders, é a incapacidade de lidar bem com imprevistos e da grande fila de espera que se dá, grande a quantidade de clientes buscando o drink ao mesmo tempo. Por ser um trabalho manual e sem previsão do quanto será gasto, é certo que todos tenham que lidar com imprevistos.
-Pensando nisso a Drunk&Drink vem com o objetivo de automatizar esse processo, fazendo com que a quantidade de imprevistos diminua e acabe com a fila de espera.
+
 
     1.1 Contextualização
 
-É uma tendência em festas,eventos e casamentos ter um bar servindo drinks preparados por bartenders.Diferentemente do buffet,que é alinhado com algumas bebidas 
-que já são servidas nesse pacote,um bar pode fazer toda a diferença no evento e surpreender os convidados.É necessário organização,agilidade e qualidade para além 
-de fazer bebidas,criar sensações e bem-estar pra quem está curtindo naquele momento.
+Bar para eventos é uma tendência crescente em festas e sempre que há uma comemoração os organizadores optam por chamar esse serviço com o intuito de ter um diferencial além dos buffets, que já são servidas bebidas no seu pacote, por se tratar de bebidas alcoólicas mais fortes do que apenas uma cerveja. Foi notável com a pandemia do 'Corona Vírus' a importância de um negócio automatizando, principalmente o mercado de eventos que é responsável por 4,32% do PIB do Brasil, diante desse cenário, visamos a oportunidade de desenvolver um software que facilita o processo em geral, sendo esses, contratação, organização dos bares, agilizando e simplificando desde os ingredientes até o produto final. 
 
     1.2 Problema
 
