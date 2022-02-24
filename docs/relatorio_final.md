@@ -39,23 +39,21 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 Bar para eventos é uma tendência crescente em festas e sempre que há uma comemoração os organizadores optam por chamar esse serviço com o intuito de ter um diferencial além dos buffets, que já são servidas bebidas no seu pacote, por se tratar de bebidas alcoólicas mais fortes do que apenas uma cerveja. Foi notável com a pandemia do 'Corona Vírus' a importância de um negócio automatizando, principalmente o mercado de eventos que é responsável por 4,32% do PIB do Brasil, diante desse cenário, visamos a oportunidade de desenvolver um software que facilita o processo em geral, sendo esses, contratação, organização dos bares, agilizando e simplificando desde os ingredientes até o produto final. 
 
     1.2 Problema
+    
+- Comunicação:
+O problema relacionado com a comunicação é a relação entre coordenador e bartenders. Durante um evento o coordenador tem muitas responsabilidades, cuidar do bar é uma delas, porém com tantas tarefas fazer o controle de estoque pode ficar em segundo plano, por exemplo, mesmo sendo extremamente importante. Por isso a importância da comunicação entre as partes podendo assim evitar imprevistos;	
 
--Comunicação:
-	O problema relacionado com a comunicação é a relação entre coordenador e bartenders. Durante um evento o coordenador tem muitas responsabilidades, cuidar do bar é uma delas, porém com tantas tarefas fazer o controle de estoque pode ficar em segundo plano, por exemplo, mesmo sendo extremamente importante. Por isso a importância da comunicação entre as partes podendo assim evitar imprevistos;	
-
--Imprevistos:
+- Imprevistos:
 	Saber lidar com imprevistos é algo cotidiano pra quem trabalha na área de eventos. Seja um material de trabalho danificado, falta de ingredientes para os drinks ou a falta de um funcionário é necessário estar preparado; 
 
--Atendimento:
+- Atendimento:
 	Quando pensamos no lado do cliente/convidado do evento, a experiência que ele terá é importante para o sucesso do negócio. Diminuir o tempo de espera na fila é um problema a ser superado.
 
     1.3 Objetivo geral
 
 O objetivo principal do Drunk&Drink é automatizar os buffets de drink para que não haja imprevistos na organização do buffet e entregar um menor tempo de espera, proporcionando melhor qualidade de serviço e melhor qualidade de atendimento ao cliente
 
-    1.3.1 – Objetivo Específico
-
-# 1.3.1 - Objetivo Específico 
+    1.3.1 – Objetivo Específicos
 
  - Analisar a razão pelo qual buffets, em geral, atrasam em meio a imprevistos;
 	
