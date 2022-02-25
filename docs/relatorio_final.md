@@ -72,8 +72,7 @@ O objetivo principal do Drunk&Drink é automatizar os buffets de drink para que 
 
 ## 2. Participantes do processo
 
-Os principais perfis de stakeholders do nosso projeto são: pessoas ou empresas responsáveis por organizar os eventos; festas de 15 anos; casamentos; formaturas e entre outros.
-Tendo assim como objetivo principal ajudas os stakeholders a ter um buffet de drinks mais organizado e agil, em seus eventos
+Os principais participantes do processo em nosso projeto são: bares de drink, bartenders, coordenadores e contratantes. Tendo assim como objetivo principal ajudar os participantes do processo a ter um buffet de drinks mais organizado e ágil, em seus eventos.
 
 ## 3. Modelagem do processo de negócio
 
