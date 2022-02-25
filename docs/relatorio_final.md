@@ -54,7 +54,7 @@ Quando pensamos no lado do cliente/convidado do evento, a experiência que ele t
 
 O objetivo principal do Drunk&Drink é automatizar os buffets de drink para que não haja imprevistos na organização do buffet e entregar um menor tempo de espera, proporcionando melhor qualidade de serviço e melhor qualidade de atendimento ao cliente, fazendo com que a experiência da festa seja melhor.
 
-    1.3 Objetivos Específicos
+        1.3.1 Objetivos Específicos
 
  - Analisar a razão pelo qual buffets, em geral, atrasam em meio a imprevistos;
 	
@@ -63,6 +63,8 @@ O objetivo principal do Drunk&Drink é automatizar os buffets de drink para que 
  - Diminuir a taxa de desperdício de alimentos;
 	
  - Proporcionar, aos clientes, atendimentos mais ágeis.
+
+
    
        1.4 Justificativas
 
