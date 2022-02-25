@@ -66,8 +66,8 @@ O objetivo principal do Drunk&Drink é automatizar os buffets de drink para que 
    
        1.4 Justificativas
 
-Mostre também as **justificativas** para o 
-desenvolvimento do seu trabalho e, caso deseje, desta-que alguma contribuição do trabalho.
+	 O que mais atrai as pessoas a tomarem drinks nos eventos e procurar esses bares, é em relação ao seu gosto e também sua praticidade. Sua experiência deve ser a melhor quando se trata de degustar sua bebida sem ter que se incomodar com questões de atendimento. Mas, essa experiência depende do bartender, então ele deve estar sem sobrecarregar, possuindo uma boa comunicação com o coordenador e sua equipe, fazendo com que a experiência mútua da festa, seja melhor para todos.
+
 
 
 ## 2. Participantes do processo
