@@ -3,11 +3,11 @@
 
 **Pablo Augusto Carneiro Magalhães, pablo.magalhaes@sga.pucminas.br**
 
-**Nathan Gonçalves de Oliveira,nathan.oliveira@sga.pucminas.br**
+**Nathan Gonçalves de Oliveira, nathan.oliveira@sga.pucminas.br**
 
-**Victor Hugo Criscollo Moreira,victor.criscollo@sga.pucminas.br**
+**Victor Hugo Criscollo Moreira, victor.criscollo@sga.pucminas.br**
 
-**Isabela Mendonça Silveira,isabela.silveira@sga.pucminas.br**
+**Isabela Mendonça Silveira, isabela.silveira@sga.pucminas.br**
 
 ---
 
