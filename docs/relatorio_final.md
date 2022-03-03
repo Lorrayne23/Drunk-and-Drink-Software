@@ -52,7 +52,7 @@ Quando pensamos no lado do cliente/convidado do evento, a experiência que ele t
 
       1.3 Objetivo Geral
 
-O objetivo principal do Drunk&Drink é automatizar os buffets de drink para que não haja imprevistos na organização do buffet e entregar um menor tempo de espera, proporcionando melhor qualidade de serviço e melhor qualidade de atendimento ao cliente, fazendo com que a experiência da festa seja melhor.
+O objetivo principal do Drunk&Drink é automatizar os bares de drink para que não haja imprevistos na organização do buffet e entregar um menor tempo de espera, proporcionando melhor qualidade de serviço e melhor qualidade de atendimento ao cliente, fazendo com que a experiência da festa seja melhor.
 
         1.3.1 Objetivos Específicos
 
@@ -74,7 +74,7 @@ O objetivo principal do Drunk&Drink é automatizar os buffets de drink para que 
 
 ## 2. Participantes do processo
 
-Os principais participantes do processo em nosso projeto são: bares de drink, bartenders, coordenadores e contratantes. Tendo assim como objetivo principal ajudar os participantes do processo a ter um buffet de drinks mais organizado e ágil, em seus eventos.
+Os principais participantes do processo em nosso projeto são: bares de drink, bartenders, coordenadores e contratantes. Tendo assim como objetivo principal ajudar os participantes do processo a ter um bares de drinks mais organizado e ágil, em seus eventos.
 
 ## 3. Modelagem do processo de negócio
 
@@ -84,7 +84,8 @@ Apresente uma descrição textual de como os sistemas atuais resolvem o problema
 
 ## 3.2. Descrição Geral da proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+O Drink&Drunk tem como obejtivo em inovar e automatizar toda a área dos drinks fornecendo a melhor experiência para o bartender, participante da festa, fornecedor, contratante e o coordenador. 
+Nosso primeiro passo é resolver o problema com o atendimento, sendo esse um foco no bartender e na pessoa atendida por ele, melhorando essa parte, substituindo quando o bartender decora por algo digital, fazendo com que a organização seja maior, ficando mais fluído. Outro problema é a questão da comunicação, sendo essa o fundamental para que tudo ocorra bem, nossa proposta será fazer com que essa comunicação seja simplificada e tudo que precise ser dito ao bartender ou ao coordenado seja rápido. O último problema abordado é sobre imprevistos, sua melhoria se dá em questão da comunicação, porém não é 100% solucionado, pois ainda sim há situações que não ocorrem como planejado, por isso, os bares devem fazer um inventário e possuir ferramentas/ingredientes reservas para que esses imprevistos sejam evitados de forma a melhorar a experiência do bartender.
 
 ## 3.3. Modelagem dos Processos
 
