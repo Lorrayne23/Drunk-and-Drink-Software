@@ -80,7 +80,7 @@ Os principais participantes do processo em nosso projeto são: bares de drink, b
 
 ## 3.1. Análise da situação atual
 
-Apresente uma descrição textual de como os sistemas atuais resolvem o problema que se propoe a resolver.  Caso sua proposta seja inovadora e não existam processos claramente definidos, **apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente**, mesmo que não se utilize tecnologia computacional.
+ Em Bares para Eventos temos problemas que necessitam ser resolvidos. Como já retratado acima, a comunicação, imprevistos e atendimento são questões a serem solucionadas. Nos sistemas atuais, tais problemas são solucionados pela forma "clássica". Toda a organização é feita com papéis e caneta, ou seja, fica tudo acumulado. A comunicação ocorre de maneira que existe um "combinado" entre coordenadores e bartenders, sendo assim, abre espaço para erros e consequentemente aumentam as chances de acontecerem imprevistos.
 
 ## 3.2. Descrição Geral da proposta
 
