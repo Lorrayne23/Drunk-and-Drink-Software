@@ -5,6 +5,7 @@
 ## Integrantes
 
 * Isabela Mendonça Silveira 
+* Lorrayne Reis Silva
 * Nathan Gonçalves de Oliveira
 * Pablo Augusto Carneiro Magalhães
 * Victor Hugo Criscollo Moreira
