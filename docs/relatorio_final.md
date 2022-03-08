@@ -9,6 +9,8 @@
 
 **Isabela Mendonça Silveira, isabela.silveira@sga.pucminas.br**
 
+**Lorrayne Reis Silva**
+
 ---
 
 Professores:
