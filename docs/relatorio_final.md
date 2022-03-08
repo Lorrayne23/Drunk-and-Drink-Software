@@ -9,7 +9,7 @@
 
 **Isabela Mendonça Silveira, isabela.silveira@sga.pucminas.br**
 
-**Lorrayne Reis Silva**
+**Lorrayne Reis Silva, lorrayne.silva.1220819@sga.pucminas.br**
 
 ---
 
