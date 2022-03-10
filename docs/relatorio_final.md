@@ -76,7 +76,12 @@ O objetivo principal do Drunk&Drink é automatizar os bares de drink para que n�
 
 ## 2. Participantes do processo
 
-Os principais participantes do processo em nosso projeto são: bares de drink, bartenders, coordenadores e contratantes. Tendo assim como objetivo principal ajudar os participantes do processo a ter um bares de drinks mais organizado e ágil, em seus eventos.
+Os principais participantes do processo em nosso projeto são: 
+Funcionários: "front bar"os responsáveis por fazer os drinks no bar, "back bar" os responsáveis por auxiliar os bartenders(front bar). 
+Fornecedor: as pessoas na qual fornecem a matéria prima dos drinks.
+Coordenador: Quem organiza o evento, é contratar os bartenders é os fornecedores, além de ser a pessoa que se comunica direto com o contratante.
+Contratante: é o responsável por contratar as pessoas para organizar seus eventos e planejá-las.
+Tendo assim como objetivo principal ajudar os participantes do processo a ter um bares de drinks mais organizado e ágil, em seus eventos.
 
 ## 3. Modelagem do processo de negócio
 
