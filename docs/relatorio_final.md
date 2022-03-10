@@ -104,7 +104,11 @@ Neste processo será feita a contratação do Bar para Eventos que acontecerá e
 
 Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
 
-![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/call_process.png "Modelo BPMN do Processo 2.")
+
+
+### 3.3.3 Processo 3 – Processo de contratação de serviço do fornecedor. 
+
+Neste processo o problema a ser resolvido é a questão da comunicação entre coordenador e fornecedor. A solução proposta por esta plataforma é fazer um chat no qual irá ajudar a comunicação entre o coordenador e o fornecedor, tanto nos primeiros momentos que no caso seria o momento de pedir as primeiras matérias primas para os drinks, é depois também para repor os materiais, além disso a plataforma será responsável por marcar horários para entrega, junto à um sistema de avaliação e reclamação de usuário caso a entrega não seja feita no tempo certo, integrado também à um banco de dados fazendo com que a segurança dos dois seja mantida e cumprida.
 
 ## 4. Projeto da Solução
 
