@@ -96,12 +96,9 @@ Nosso primeiro passo é resolver o problema com o atendimento, sendo esse um foc
 
 ## 3.3. Modelagem dos Processos
 
-### 3.3.1 Processo 1 – NOME DO PROCESSO
+### 3.3.1 Processo 1 – Processo de contratação do bar de eventos.
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN.
-
-![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/process.png "Modelo BPMN do Processo 1.")
-
+Neste processo será feita a contratação do Bar para Eventos que acontecerá entre o contratante e o coordenador. Por meio desta plataforma será possível a comunicação entre as partes, sendo que as informações necessárias para o evento e o fornecimento de um contrato sejam armazenadas no sistema, com intuito que haja segurança de que o serviço contratado obterá o pagamento e será realizado automaticamente após o evento.
 
 ### 3.3.2 Processo 2 – NOME DO PROCESSO
 
