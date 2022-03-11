@@ -114,10 +114,9 @@ O contratante e o coordenador agora terão mais facilidade em se comunicar. Na n
 
 Neste processo será feita a contratação do Bar para Eventos que acontecerá entre o contratante e o coordenador. Por meio desta plataforma será possível a comunicação entre as partes, sendo que as informações necessárias para o evento e o fornecimento de um contrato sejam armazenadas no sistema, com intuito que haja segurança de que o serviço contratado obterá o pagamento e será realizado automaticamente após o evento.
 
-### 3.3.2 Processo 2 – NOME DO PROCESSO
+### 3.3.2 Processo 2 – Processo de organização do evento.
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
+Neste processo o coordenador é o protagonista, fazendo a comunicação com todos os participantes do processo e coletando informações para a organização do evento. Em nossa plataforma ele possuirá uma sessão para se comunicar através de um chat , após coletar as informações ele terá um local para armazenar essas informações e contabilizar tudo que será necessário para o evento. Isso possibilitará uma organização e irá prevenir erros.
 
 
 ### 3.3.3 Processo 3 – Processo de contratação de serviço do fornecedor. 
