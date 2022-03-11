@@ -8,3 +8,4 @@ Descrição do projeto
 
 Com o auxilio do nosso software, a vida do coordenador será facilitada, já que, ele terá uma parte reservada apenas para seu uso. 
 A partir dessa parte reservada, ele poderá entrar em contato com outros elementos necessários para a realização do evento, como por exemplo, o fornecedor.
+
