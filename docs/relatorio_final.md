@@ -87,7 +87,23 @@ Tendo assim como objetivo principal ajudar os participantes do processo a ter um
 
 ## 3.1. Análise da situação atual
 
- Em Bares para Eventos temos problemas que necessitam ser resolvidos. Como já retratado acima, a comunicação, imprevistos e atendimento são questões a serem solucionadas. Nos sistemas atuais, tais problemas são solucionados pela forma "clássica". Toda a organização é feita com papéis e caneta, ou seja, fica tudo acumulado. A comunicação ocorre de maneira que existe um "combinado" entre coordenadores e bartenders, sendo assim, abre espaço para erros e consequentemente aumentam as chances de acontecerem imprevistos.
+ContratanteXcoordenador:
+
+As pessoas que participam desse processo são: contratante e coordenador. O contratante é responsável por contratar o coordenador e delegar as exigências para seu evento, fazendo assim com que o coordenador seja responsável por fazer o evento de acordo com as exigências do contratante. Utilizam de whatsapp, ligações, reuniões, até mesmo por recados de secretarias, para se comunicarem antes e durante o processo. Após isso o coordenador ser contratado e conversar com o contratante sobre o evento, é feito um contrato com forma de pagamento. valor do pagamento é as exigências do contratante para seu evento.
+
+Coordenador:
+
+Atualmente, os coordenadores de eventos desempenham um papel crucial na realização de eventos. Desde o contato inicial do contratante, os coordenadores devem estar atentos
+a todos os detalhes para a realização do evento como, por exemplo, o número de convidados, a quantidade de ingredientes necessárias para fazer drinks, por exemplo, entre outras funções.
+As informações compartilhadas entre as partes citadas anteriormente são anotadas em um papel, o que, para os dias de hoje, pode ser considerado obsoleto, se levaremos em conta as tecnologias atuais.
+
+coordenadorXbartender:
+
+A contratação do Bartender realizada pelo Coordenador é feita de forma coloquial, na maioria das vezes através de redes sociais, o Coordenador entra em contado com o Bartender e oferta a atividade a ser realizada. Em caso de aceite da proposta a problemática ocorre pelo não firmamento de um contrato legal que venha oferecer segurança a ambos, uma vez que outros problemas podem transcorrer durante a prestação do serviço, como o Bartender se acidentar ou até mesmo o evento ser cancelado. Outro problema, diz respeito a realização do pagamento do serviço prestado, que também é feito de formal informal, por meio do pagamento em dinheiro após o evento ou em deposito bancário, na qual ambas as partes não podem contestar de forma legal uma vez que somente possuem comprovantes bancários.
+
+coordenadorXfornecedor:
+
+Nesse processo as partes que se relacionam são o coordenador e o fornecedor, podendo ser mais de um fornecedor para suprir todas as necessidades do coordenador. A relação consiste na manifestação de interesse do coordenador do evento para com os fornecedores de sua escolha de acordo com suas necessidades. Esse primeiro contato é feito por mensagens de texto, ligações ou pessoalmente. Após esse primeiro contato de interesse é feita uma reunião para expor todas as necessidades do coordenador para o seu evento explicitando o local, quantidade de bebidas, ingredientes, quantidade de gelo, entre outros. Assim, caso seja firmado um contrato por escrito ou falado de serviço, a responsabilidade dos fornecedores é entregar seu produto/serviço de acordo com o combinado entre as partes. A forma de pagamento também é feita de comum acordo, podendo ser dividida em parcelas ou à vista, em dinheiro, tranferências ou pix e é gerado um comprovante de pagamento no final do processo.
 
 ## 3.2. Descrição Geral da proposta
 
