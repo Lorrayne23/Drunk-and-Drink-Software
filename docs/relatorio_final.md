@@ -64,7 +64,7 @@ O objetivo principal do Drunk&Drink é automatizar os bares de drink para que n�
 	
  - Diminuir a taxa de desperdício de alimentos;
 	
- - Proporcionar, aos clientes, atendimentos mais ágeis.
+ - Proporcionar, aos clientes, atendimentos mais ágeis. 
 
 
    
