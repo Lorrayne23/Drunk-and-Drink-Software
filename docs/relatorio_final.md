@@ -141,9 +141,6 @@ Neste processo os participantes envolvidos são: coordenador, organizador e forn
 Neste processo iremos detalhar a comunicação de uma forma geral, desde a proposta até para a hora do evento. Todos da plataforma irão possuir esse chat, porém ele será diferente quando se está em um evento e para receber propostas vindas. Irá possuir uma aba única que o contratado poderá acessar e nela conterá todas as suas propostas recebidas, a partir dela você poderá inciar uma conversa para termos. Caso o contratado esteja em um evento será possível, a partir de outra aba a comunicação com o contratante e o coordenador do evento.
 
 
-
-DESCRIÇÃO DO PROCESSO
-
 ## 4. Projeto da Solução
 
 ### 4.1. Detalhamento das atividades
