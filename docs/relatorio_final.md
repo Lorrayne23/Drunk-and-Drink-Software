@@ -136,6 +136,11 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 
 Neste processo os participantes envolvidos são: coordenador, organizador e fornecedor. O organizador entra na plataforma, contrata o coordenador é o bartender, faz o inventário dos ingredientes e materiais de trabalho, é logo após isso ele envia a demanda ao fornecedor. O fornecedor entra na plataforma, recebe a demanda do organizador, compra a demanda e entrega a demanda no dia e horário marcado no local do evento. O coordenador entra na plataforma, após isso recebe informação do evento, depois ele vai ao local do evento e recebe a demanda entregue pelo fornecedor.
 
+### 3.3.8 Processo 8 - Processo de comunicação
+
+Neste processo iremos detalhar a comunicação de uma forma geral, desde a proposta até para a hora do evento. Todos da plataforma irão possuir esse chat, porém ele será diferente quando se está em um evento e para receber propostas vindas. Irá possuir uma aba única que o contratado poderá acessar e nela conterá todas as suas propostas recebidas, a partir dela você poderá inciar uma conversa para termos. Caso o contratado esteja em um evento será possível, a partir de outra aba a comunicação com o contratante e o coordenador do evento.
+
+
 
 DESCRIÇÃO DO PROCESSO
 
