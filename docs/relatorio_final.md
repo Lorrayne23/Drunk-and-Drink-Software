@@ -122,7 +122,11 @@ Neste processo o problema a ser resolvido é a questão da comunicação entre c
 
 ### 3.3.4 Processo 4 – Processo de contratação de serviço do bartender.
 
-Neste processo o problema a ser resolvido é a questão da comunicação escassa entre bartender e coordenador, gerando assim uma sobrecarga aos dois. A solução proposta por esta plataforma é utilizar um chat para melhorar a comunicação entre ambos e na questão de sobrecarga do bartender será feita uma sessão para o bartender atualizar a situação do bar como por exemplo a quantidade de bebidas, gelo e ingredientes assim o coordenador está por dentro da situação para que evite imprevistos. Assim,  a sobrecarga e a comunicação não serão problema.
+O processo de contração do bartender se relacionada ao recrutamento de bartenders para prestação de serviços durante um evento, tal atração é realizada pelo contratatente que detêm conhecimento de todo o workflow de um evento e entende suas demandas.Assim, o processo automatiza a procura por pessoas que realizão esse tipo de trabalho em festas  e a formalização contractual  por meio da geração de um contrato na própria plataforma, uma vez que geralmente a comunicação para a contratação ocorre por meio de métodos informais e não há geração de um contrato para ambas as partes. 
+
+### 3.3.5 Processo 5 – Processo de avaliação do bartender.
+
+O processo de avaliação se relaciona atribuição de uma nota ao bartender após os serviços prestados ou um comentário postado na página do mesmo.Esse possui o intuito de  automatizar a necessidade de um meio oficial de ratificação de qualidade do serviço realizado, pois tal ação geralmente ocorre por meio da comunicação informal : durante o trabalho ou por meio de redes sociais.O processo permite então que futuros contratantes possam observar as avaliações no momento de uma contratação.
 
 
 
