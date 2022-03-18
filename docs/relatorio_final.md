@@ -117,6 +117,8 @@ Nesse processo os usuários envolvidos se cadastram. Eles entram na plataforma e
 
 Neste processo após todos os participantes se cadastrarem e especificarem qual sua atuação nesse negócio, é necessário contratar e ser contratado. Essa tarefa será feita pelo dono do evento (contratante) que pretende contratar um Bar para Eventos e pelo organizador que pretende contratar funcionários para trabalhar juntamente com sua equipe. Isso ocorrerá por meio de uma solicitação de interesse, a partir dos dados colocados no cadastramento, com trocas de mensagens diretas com informações do evento e em resposta se a proposta será aceita ou não.
 
+![Processo 2](/docs/imagens/ModelagemProcesso_LançamentoPropostaAnúncio.jpeg "P1")
+
 
 ### 3.3.3 Processo 3 – Processo de contratação de serviço do fornecedor. 
 
