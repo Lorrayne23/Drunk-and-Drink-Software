@@ -107,9 +107,9 @@ Com o intuito de agregar valor a novas contratações e, evitar problemas na sol
 
 ## 3.3. Modelagem dos Processos
 
-### 3.3.1 Processo 1 – Processo de contratação do bar de eventos.
+### 3.3.1 Processo 1 – Processo de Cadastramento de Participantes do Processo.
 
-Neste processo será feita a contratação do Bar para Eventos que acontecerá entre o contratante e o coordenador. Por meio desta plataforma será possível a comunicação entre as partes, sendo que as informações necessárias para o evento e o fornecimento de um contrato sejam armazenadas no sistema, com intuito que haja segurança de que o serviço contratado obterá o pagamento e será realizado automaticamente após o evento.
+Nesse processo os usuários envolvidos se cadastram. Eles entram na plataforma e se identificam, especificam se desejam cadastrar sua empresa (organizador), em caso de serem donos de Bar de Eventos e desejam automatizar o seu negócio; se desejam se cadastrar para trabalhar em algum evento (funcionários em geral), sendo assim, adiconam suas informações e qualificações para que possa ser solicitado por algum organizador; ou caso o usuário esteja fazendo um evento (contratante) e deseja contratar um Bar de Eventos , ele se cadastra na plataforma e seleciona o Bar de Eventos de sua preferência para trabalhar em sua festa.
 
 ### 3.3.2 Processo 2 – Processo de organização do evento.
 
