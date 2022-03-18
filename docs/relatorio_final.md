@@ -111,9 +111,9 @@ Com o intuito de agregar valor a novas contratações e, evitar problemas na sol
 
 Nesse processo os usuários envolvidos se cadastram. Eles entram na plataforma e se identificam, especificam se desejam cadastrar sua empresa (organizador), em caso de serem donos de Bar de Eventos e desejam automatizar o seu negócio; se desejam se cadastrar para trabalhar em algum evento (funcionários em geral), sendo assim, adiconam suas informações e qualificações para que possa ser solicitado por algum organizador; ou caso o usuário esteja fazendo um evento (contratante) e deseja contratar um Bar de Eventos , ele se cadastra na plataforma e seleciona o Bar de Eventos de sua preferência para trabalhar em sua festa.
 
-### 3.3.2 Processo 2 – Processo de organização do evento.
+### 3.3.2 Processo 2 – Processo de Lancamento de Propostas para Serviço.
 
-Neste processo o coordenador é o protagonista, fazendo a comunicação com todos os participantes do processo e coletando informações para a organização do evento. Em nossa plataforma ele possuirá uma sessão para se comunicar através de um chat , após coletar as informações ele terá um local para armazenar essas informações e contabilizar tudo que será necessário para o evento. Isso possibilitará uma organização e irá prevenir erros.
+Neste processo após todos os participantes se cadastrarem e especificarem qual sua atuação nesse negócio, é necessário contratar e ser contratado. Essa tarefa será feita pelo dono do evento (contratante) que pretende contratar um Bar para Eventos e pelo organizador que pretende contratar funcionários para trabalhar juntamente com sua equipe. Isso ocorrerá por meio de uma solicitação de interesse, a partir dos dados colocados no cadastramento, com trocas de mensagens diretas com informações do evento e em resposta se a proposta será aceita ou não.
 
 
 ### 3.3.3 Processo 3 – Processo de contratação de serviço do fornecedor. 
