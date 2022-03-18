@@ -100,9 +100,13 @@ Nesse processo as partes que se relacionam são o coordenador e o fornecedor, po
 ## 3.2. Descrição Geral da proposta
 
 O coordenador terá uma parte reservada, onde ele poderá entrar em contato com outros elementos necessários para a realização do evento. Ele também terá acesso ao inventário e a maioria das solicitações dos outros participantes do processo. Um dos problemas se dá no momento em que o coordenador comunica e faz a organização/compras com o fornecedor. Todo o processo de fornecimento será documentado em um contrato, além disso será feito uma lista/check-in na plataforma.
+
 A nossa proposta que acrescenta valor a forma comunicacional entre bartender e coordenador será utilização de uma interface comum entre ambos, na qual os dois se cadastrariam, um como fornecedor de serviço e outro como contratante. Nesse aspecto o coordenador poderia visualizar a disponibilidade de trabalho de bartender, entrar em contato por meio de um chat e, em caso de aceite do trabalho, gerar um contrato da certificação do mesmo e uma forma de pagamento. 
+
 A plataforma inicialmente irá passar por um processo de cadastro, onde a pessoa se informa como contratante (contratante da festa) ou contratado (coordenador, fornecedor, bartender). Logo após isso ele irá criar seu perfil, informando também seu preço por festa ou hora, além de suas habilidades e competências. Na mesma plataforma, os contratantes possuirão a opção de enviar anúncios, exemplo, "Irei fazer uma festa e preciso de 'x' coordenadores, 'x' fornecedores, 'x' bartenders, ...". Após isso, os contratados irão fazer suas propostas em cima do que foi anunciado, e, o contratante poderá escolher quem quer pra sua festa, de acordo com os critérios que ele julgar como necessário. 
+
 No processo de pagamento será feito um contrato contendo tanto o valor a ser pago quanto as especificações pedidas por cada participante (fornecedor, bartender, coordenador). Por exemplo: o coordenador irá ganhar R$ “X” e terá as especificações da festa de acordo com o que o que ele deseja. O bartender irá ganhar R$ “Y” por hora, podendo ganhar extra caso a feste dure mais tempo, ou estabelecer um pagamento fixo, aberto para negociações caso ocorra por mais tempo do que combinado. O contrato irá ficar salvo na aplicação contendo também a forma de pagamento, como pix, TED, dinheiro, entre outros. O pagamento será realizado após o término da festa e com o valor estipulado, podendo conter acréscimo ou decréscimo do valor.
+
 Com o intuito de agregar valor a novas contratações e, evitar problemas na solicitação de serviços futuros, será proposto a opção de avaliação por parte do contratante. Esse acessa a plataforma e verifica as contrações já realizadas e pesquisa pelo bartender desejado, podendo designar uma pontuação em relação ao serviço prestado e também fornecer comentários pertinentes sobre a atuação do mesmo durante o evento.
 
 ## 3.3. Modelagem dos Processos
@@ -122,7 +126,8 @@ Neste processo após todos os participantes se cadastrarem e especificarem qual 
 
 ### 3.3.3 Processo 3 – Processo de contratação de serviço do fornecedor. 
 
-Neste processo o problema a ser resolvido é a questão da comunicação entre coordenador e fornecedor. A solução proposta por esta plataforma é fazer um chat no qual irá ajudar a comunicação entre o coordenador e o fornecedor, tanto nos primeiros momentos que no caso seria o momento de pedir as primeiras matérias primas para os drinks, é depois também para repor os materiais, além disso a plataforma será responsável por marcar horários para entrega, junto à um sistema de avaliação e reclamação de usuário caso a entrega não seja feita no tempo certo, integrado também à um banco de dados fazendo com que a segurança dos dois seja mantida e cumprida.
+Neste processo, o fornecedor é contratado pelo coordenador. O coordenador é informado dos detalhes do evento, pela a aplicação, e após isso, procura um fornecedor, informando se há a disponibilidade de prestar serviços. Caso a proposta seja aceita, será gerado um contrato e o fornecedor já poderá prestar serviços ao coordenador. A prestação de serviços será o fornecimento de ingredientes para fazer drinks, mas o orçamento dos ingredientes deve ser aprovado pelo coordenador. 
+Caso o contrato não seja seguido, o coordenador poderá efetuar uma reclamação. Após a conclusão do evento, a equipe será avaliada e o pagamento será liberado.
 
 ![Processo 3](/docs/imagens/modelagem-coordenadorfornecedor.png "P3")
 
