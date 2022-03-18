@@ -111,7 +111,7 @@ Com o intuito de agregar valor a novas contratações e, evitar problemas na sol
 
 Nesse processo os usuários envolvidos se cadastram. Eles entram na plataforma e se identificam, especificam se desejam cadastrar sua empresa (organizador), em caso de serem donos de Bar de Eventos e desejam automatizar o seu negócio; se desejam se cadastrar para trabalhar em algum evento (funcionários em geral), sendo assim, adiconam suas informações e qualificações para que possa ser solicitado por algum organizador; ou caso o usuário esteja fazendo um evento (contratante) e deseja contratar um Bar de Eventos , ele se cadastra na plataforma e seleciona o Bar de Eventos de sua preferência para trabalhar em sua festa.
 
-![Processo 1](/assets/processos/MODELAGEM PROCESSO CADASTRAMENTO DE PARTICIPANTES DO PROCESSO.jpeg "Processo 1.")
+![Processo 1](/docs/imagens/process.png "Processo 1.")
 
 ### 3.3.2 Processo 2 – Processo de Lancamento de Propostas para Serviço.
 
