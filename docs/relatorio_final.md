@@ -128,6 +128,9 @@ O processo de contração do bartender se relacionada ao recrutamento de bartend
 
 O processo de avaliação se relaciona atribuição de uma nota ao bartender após os serviços prestados ou um comentário postado na página do mesmo.Esse possui o intuito de  automatizar a necessidade de um meio oficial de ratificação de qualidade do serviço realizado, pois tal ação geralmente ocorre por meio da comunicação informal : durante o trabalho ou por meio de redes sociais.O processo permite então que futuros contratantes possam observar as avaliações no momento de uma contratação.
 
+### 3.3.6 Processo 6 - Processo de pagamento geral.
+
+Neste processo é realizado todo o pagamento pendente aos participantes do evento. O pagamento será realizado pós a festa, já que é preciso uma confirmação para que ele seja feito. O responsável pelo pagamento é o contratante do evento, que irá enviar a quantia para cada empregado por meio da plataforma, pós enviado o pagamento será gerado uma nota fiscal de pagamento.
 
 
 DESCRIÇÃO DO PROCESSO
