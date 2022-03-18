@@ -117,32 +117,44 @@ Nesse processo os usuários envolvidos se cadastram. Eles entram na plataforma e
 
 Neste processo após todos os participantes se cadastrarem e especificarem qual sua atuação nesse negócio, é necessário contratar e ser contratado. Essa tarefa será feita pelo dono do evento (contratante) que pretende contratar um Bar para Eventos e pelo organizador que pretende contratar funcionários para trabalhar juntamente com sua equipe. Isso ocorrerá por meio de uma solicitação de interesse, a partir dos dados colocados no cadastramento, com trocas de mensagens diretas com informações do evento e em resposta se a proposta será aceita ou não.
 
-![Processo 2](/docs/imagens/ModelagemProcesso_LançamentoPropostaAnúncio.jpeg "P1")
+![Processo 2](/docs/imagens/ModelagemProcesso_LançamentoPropostaAnúnico.jpeg "P2")
 
 
 ### 3.3.3 Processo 3 – Processo de contratação de serviço do fornecedor. 
 
 Neste processo o problema a ser resolvido é a questão da comunicação entre coordenador e fornecedor. A solução proposta por esta plataforma é fazer um chat no qual irá ajudar a comunicação entre o coordenador e o fornecedor, tanto nos primeiros momentos que no caso seria o momento de pedir as primeiras matérias primas para os drinks, é depois também para repor os materiais, além disso a plataforma será responsável por marcar horários para entrega, junto à um sistema de avaliação e reclamação de usuário caso a entrega não seja feita no tempo certo, integrado também à um banco de dados fazendo com que a segurança dos dois seja mantida e cumprida.
 
+![Processo 3](/docs/imagens/modelagem-coordenadorfornecedor.png "P3")
+
 ### 3.3.4 Processo 4 – Processo de contratação de serviço do bartender.
 
 O processo de contração do bartender se relacionada ao recrutamento de bartenders para prestação de serviços durante um evento, tal atração é realizada pelo contratatente que detêm conhecimento de todo o workflow de um evento e entende suas demandas.Assim, o processo automatiza a procura por pessoas que realizão esse tipo de trabalho em festas  e a formalização contractual  por meio da geração de um contrato na própria plataforma, uma vez que geralmente a comunicação para a contratação ocorre por meio de métodos informais e não há geração de um contrato para ambas as partes. 
+
+![Processo 4](/docs/imagens/diagram_contratacao_bartender.png "P4")
 
 ### 3.3.5 Processo 5 – Processo de avaliação do bartender.
 
 O processo de avaliação se relaciona atribuição de uma nota ao bartender após os serviços prestados ou um comentário postado na página do mesmo.Esse possui o intuito de  automatizar a necessidade de um meio oficial de ratificação de qualidade do serviço realizado, pois tal ação geralmente ocorre por meio da comunicação informal : durante o trabalho ou por meio de redes sociais.O processo permite então que futuros contratantes possam observar as avaliações no momento de uma contratação.
 
+![Processo 5](/docs/imagens/diagram_avaliacao_batender.png "P5")
+
 ### 3.3.6 Processo 6 - Processo de pagamento geral.
 
 Neste processo é realizado todo o pagamento pendente aos participantes do evento. O pagamento será realizado pós a festa, já que é preciso uma confirmação para que ele seja feito. O responsável pelo pagamento é o contratante do evento, que irá enviar a quantia para cada empregado por meio da plataforma, pós enviado o pagamento será gerado uma nota fiscal de pagamento.
+
+![Processo 6](/docs/imagens/ProcessoPagamento.png "P6")
 
 ### 3.3.7 Processo 7 - Processo de descrição da organização do evento.
 
 Neste processo os participantes envolvidos são: coordenador, organizador e fornecedor. O organizador entra na plataforma, contrata o coordenador é o bartender, faz o inventário dos ingredientes e materiais de trabalho, é logo após isso ele envia a demanda ao fornecedor. O fornecedor entra na plataforma, recebe a demanda do organizador, compra a demanda e entrega a demanda no dia e horário marcado no local do evento. O coordenador entra na plataforma, após isso recebe informação do evento, depois ele vai ao local do evento e recebe a demanda entregue pelo fornecedor.
 
+![Processo 7](/docs/imagens/ModelagemProcesso_Organização_Evento.png "P7")
+
 ### 3.3.8 Processo 8 - Processo de comunicação
 
 Neste processo iremos detalhar a comunicação de uma forma geral, desde a proposta até para a hora do evento. Todos da plataforma irão possuir esse chat, porém ele será diferente quando se está em um evento e para receber propostas vindas. Irá possuir uma aba única que o contratado poderá acessar e nela conterá todas as suas propostas recebidas, a partir dela você poderá inciar uma conversa para termos. Caso o contratado esteja em um evento será possível, a partir de outra aba a comunicação com o contratante e o coordenador do evento.
+
+![Processo 8](/docs/imagens/ProcessoComunicação.png "P8")
 
 
 ## 4. Projeto da Solução
