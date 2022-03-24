@@ -147,7 +147,7 @@ O processo de avaliação se relaciona atribuição de uma nota ao bartender ap�
 
 Neste processo é realizado todo o pagamento pendente aos participantes do evento. O pagamento será realizado pós a festa, já que é preciso uma confirmação para que ele seja feito. O responsável pelo pagamento é o contratante do evento, que irá enviar a quantia para cada empregado por meio da plataforma, pós enviado o pagamento será gerado uma nota fiscal de pagamento.
 
-![Processo 6](/docs/imagens/ProcessoPagamento.png "P6")
+![Processo 6](/docs/imagens/Processo_Pagamento.png "P6")
 
 ### 3.3.7 Processo 7 - Processo da organização do evento.
 
@@ -159,7 +159,7 @@ Neste processo os participantes envolvidos são: coordenador, organizador e forn
 
 Neste processo iremos detalhar a comunicação de uma forma geral, desde a proposta até para a hora do evento. Todos da plataforma irão possuir esse chat, porém ele será diferente quando se está em um evento e para receber propostas vindas. Irá possuir uma aba única que o contratado poderá acessar e nela conterá todas as suas propostas recebidas, a partir dela você poderá inciar uma conversa para termos. Caso o contratado esteja em um evento será possível, a partir de outra aba a comunicação com o contratante e o coordenador do evento.
 
-![Processo 8](/docs/imagens/ProcessoComunicação.png "P8")
+![Processo 8](/docs/imagens/Processo_Comunicacao.png "P8")
 
 
 ## 4. Projeto da Solução
