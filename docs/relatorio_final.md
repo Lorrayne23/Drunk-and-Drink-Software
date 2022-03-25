@@ -115,32 +115,30 @@ Com o intuito de agregar valor a novas contratações e, evitar problemas na sol
 
 Nesse processo os usuários envolvidos se cadastram. Eles entram na plataforma e se identificam, especificam se desejam cadastrar sua empresa (organizador), em caso de serem donos de Bar de Eventos e desejam automatizar o seu negócio; se desejam se cadastrar para trabalhar em algum evento (funcionários em geral), sendo assim, adiconam suas informações e qualificações para que possa ser solicitado por algum organizador; ou caso o usuário esteja fazendo um evento (contratante) e deseja contratar um Bar de Eventos , ele se cadastra na plataforma e seleciona o Bar de Eventos de sua preferência para trabalhar em sua festa.
 
-![Processo 1](/assets/processos/CorreçãoProcessoCadastramento.png "P1")
+![Processo 1](/assets/imagens_modelagem_processos/CorreçãoProcessoCadastramento.png "P1")
 
 ### 3.3.2 Processo 2 – Processo de Lançamento de Propostas/Anúncios.
 
 Neste processo após todos os participantes se cadastrarem e especificarem qual sua atuação nesse negócio, é necessário contratar e ser contratado. Essa tarefa será feita pelo dono do evento (contratante) que pretende contratar um Bar para Eventos e pelo organizador que pretende contratar funcionários para trabalhar juntamente com sua equipe. Isso ocorrerá por meio de uma solicitação de interesse, a partir dos dados colocados no cadastramento, com trocas de mensagens diretas com informações do evento e em resposta se a proposta será aceita ou não.
 
-![Processo 2](/assets/processos/correção_processo_lançamento_proposta.png "P2")
+![Processo 2](/assets/imagens_modelagem_processos/correção_processo_lançamento_proposta.png "P2")
 
 
 ### 3.3.3 Processo 3 – Processo de contratação dos participantes do processo. 
 
 ...
 
-![Processo 3](/docs/imagens/modelagem-coordenadorfornecedor.png "P3")
 
-
-### 3.3.5 Processo 4 – Processo de avaliação geral.
+### 3.3.4 Processo 4 – Processo de avaliação geral.
 
 ...
 
 
-### 3.3.6 Processo 5 - Processo de pagamento geral.
+### 3.3.5 Processo 5 - Processo de pagamento geral.
 
 Neste processo é realizado todo o pagamento pendente aos participantes do evento. O pagamento será realizado pós a festa, já que é preciso uma confirmação para que ele seja feito. O responsável pelo pagamento é o contratante do evento, que irá enviar a quantia para cada empregado por meio da plataforma, pós enviado o pagamento será gerado uma nota fiscal de pagamento.
 
-![Processo 6](/docs/imagens/Processo_Pagamento.png "P6")
+![Processo 6](/docs/imagens_modelagem_processos/Processo_Pagamento.png "P5")
 
 
 ## 4. Projeto da Solução
