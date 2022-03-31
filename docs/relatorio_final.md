@@ -130,7 +130,7 @@ Neste processo após todos os participantes se cadastrarem e especificarem qual 
 
 
 ### 3.3.4 Processo 4 – Processo de avaliação geral.
-![Processo 4](/docs/imagens_modelagem_processos/diagrama_avaliacao_geral.png "P4")
+![Processo 4](/docs/imagens_modelagem_processos/diagram_avaliacao_geral.png "P4")
 
 ...
 
