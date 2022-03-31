@@ -166,21 +166,27 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
 |    |    |     |
 
-#### Processo 2 – NOME DO PROCESSO
+#### Processo 2 – Contratação do Serviço
 
-**Nome da atividade 1**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
-
-**Nome da atividade 2**
+**Solicitação do Serviço**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
+| Área para solicitar serviço dos fornecedores | Área de texto | Mínimo 3 caracteres | Null |
+| Área para aceitar solicitação   |  Botão (Sim ou não)  |  Uma opção deve ser selecionada. | -- |
+
+**Dados do Serviço**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Área para calcular preço dos serviços | Tabela | Mínimo 3 caracteres | Null |
+|  Área para Informar cálculo dos ingredientes  |  Tabela  |  Mínimo 3 caracteres  | Null |
+
+**Aceitação dos Serviços**
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+|  Área para aceitar serviços | Botão (Sim ou não) | Uma opção deve ser selecionada | -- |
+| Área para assinatura de contrato |  Arquivo (Gerado pela plataforma) | Mínimo 3 caracteres | -- | 
 
 #### Processo 3 – Pagamento
 
