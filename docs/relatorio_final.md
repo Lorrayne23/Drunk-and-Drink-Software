@@ -129,7 +129,7 @@ Neste processo após todos os participantes se cadastrarem e especificarem qual 
 ...
 
 
-### 3.3.4 Processo 4 – Processo de avaliação geral.
+### 3.3.4 Processo 4 – Processo de avaliação de serviço prestado
 ![Processo 4](/docs/imagens_modelagem_processos/diagram_avaliacao_geral.png "P4")
 
 ...
@@ -205,7 +205,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Envio de dinheiro (Dono BarTender)  | Botão | - | - |
 
 
-#### Processo 4 – AVALIAÇ˜AO DE SERVIÇO
+#### Processo 4 – Avaliação de serviço prestado
 **Buscar por tipo de serviço**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
