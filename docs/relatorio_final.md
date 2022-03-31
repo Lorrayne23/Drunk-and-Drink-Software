@@ -181,6 +181,29 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
 |    |    |     |
 
+#### Processo 3 – Pagamento
+
+**Confirmação de pagamento**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Área de confirmar término evento | Botão (Sim ou não) | - | Não |
+
+**Adicionar dinheiro à plataforma**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Área para adicionar dinheiro | Múltipla Escolha | - |  Pix |
+| Quantidade de dinheiro para adionar | Campo de Texto | Apenas números | 0|
+
+**Área de pagamento**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Espera/Recibo de pagamento (Funcionários em geral) | Arquivo (Gerado pela plataforma) | - | Null |
+| Envio de dinheiro (Dono BarTender)  | Botão | - | - |
+
+
 ### 4.2. Tecnologias
 
 Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas. Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
