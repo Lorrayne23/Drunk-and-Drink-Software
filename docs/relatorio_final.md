@@ -150,25 +150,63 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 
 ### 4.1. Detalhamento das atividades
 
-Descrever aqui cada uma das propriedades das atividades de cada um dos processos. Devem estar relacionadas com o modelo de processo apresentado anteriormente.
 
-#### Processo 1 – NOME DO PROCESSO
+#### Processo 1 – Cadastramento e Participantes do processo
 
-**Nome da atividade 1**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-| ***Exemplo:***  |    |     |
-| login | Caixa de Texto | formato de e-mail |  |
-| senha | Caixa de Texto | mínimo de 8 caracteres |   |
-
-**Nome da atividade 2**
+**Identificar Perfil de Usuário**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
+| Identificação de Perfil | Múltipla Escolha |  |  |
+
+
+**Adicionar Informações do Funcionário**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+|  Nome| Caixa de Texto |  |  |
+|  CPF  |  Caixa de Texto  |  Apenas Números   | |
+| Telefone de Contato | Caixa de Texto | Apenas Números | |
+| Cidade| Caixa de Texto| CEP Válido| |
+|E-mail| Caixa de Texto | Formato E-mail| |
+| Senha| Caixa de Texto | | |
+| Currículo| Arquivo| PDF| |
+| Descrição de Perfil| Caixa de Texto| Máximo 50 Caractéres| |
+| Foto | Arquivo| PNG| |
+
+
+**Adicionar Informações da Empresa**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+|  Nome| Caixa de Texto |  |  |
+|  CNPJ |  Caixa de Texto  |  Apenas Números   | |
+| Telefone de Contato | Caixa de Texto | Apenas Números | |
+| Cidade| Caixa de Texto| CEP Válido| |
+|E-mail| Caixa de Texto | Formato E-mail| |
+| Senha| Caixa de Texto | | |
+| Descrição de Perfil| Caixa de Texto| Máximo 50 Caractéres| |
+| Foto | Arquivo| PNG| |
+
+**Adicionar Informações do Contratante**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+|  Nome| Caixa de Texto |  |  |
+|  CPF ou CNPJ  |  Caixa de Texto  |  Apenas Números   | |
+| Telefone de Contato | Caixa de Texto | Apenas Números | |
+| Cidade| Caixa de Texto| CEP Válido| |
+|E-mail| Caixa de Texto | Formato E-mail| |
+| Senha| Caixa de Texto | | |
+| Foto | Arquivo| PNG| |
+
+**Realizar Login**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| E-mail | Caixa de Texto | Formato E-mail |  |
+|  Senha|  Caixa de Texto  |  | |
+
 
 #### Processo 2 – Contratação do Serviço
 
