@@ -210,16 +210,14 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-| filter | Seleção única   |   - | - |
-| search name  | Caixa de texto  |   - | - |
+| filter | Seleção única   |  -  | - |
+| search name  | Caixa de texto  | mínimo de 2 caracteres| nome do prestador de serviço |
 
 **Avaliar serviço prestado**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-| stars count | Seleção única   |  - | - |
+| stars count | Seleção única   |  - | -|
 
 ### 4.2. Tecnologias
 
