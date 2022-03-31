@@ -128,7 +128,7 @@ Neste processo após todos os participantes se cadastrarem e especificarem qual 
 
 Neste processo é realizada a contratação dos participantes. O contratante da festa procura um bar de eventos de acordo com sua escolha, eles realizam a comunicação e pós aceita o bar de eventos procura bartenders, coordenadores e fornecedores para festa através da plataforma. Caso a proposta seja aceita, a plataforma gera um contrato que contará com assinatura de ambas a parte, e depois do término da festa é realizada o pagamento a todos os integrantes desse processo.
 
-![Processo 3](/docs/imagens_modelagem_processos/Contratacao_Servico_D&D.png"P1")
+![Processo 3](/docs/imagens_modelagem_processos/Contratacao_Servico_D&D.png "P1")
 
 
 ### 3.3.4 Processo 4 – Processo de avaliação de serviço prestado
