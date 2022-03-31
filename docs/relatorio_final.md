@@ -126,13 +126,17 @@ Neste processo após todos os participantes se cadastrarem e especificarem qual 
 
 ### 3.3.3 Processo 3 – Processo de contratação dos participantes do processo. 
 
+Neste processo é realizada a contratação dos participantes. O contratante da festa procura um bar de eventos de acordo com sua escolha, eles realizam a comunicação e pós aceita o bar de eventos procura bartenders, coordenadores e fornecedores para festa através da plataforma. Caso a proposta seja aceita, a plataforma gera um contrato que contará com assinatura de ambas a parte, e depois do término da festa é realizada o pagamento a todos os integrantes desse processo.
+
 ...
 
 
 ### 3.3.4 Processo 4 – Processo de avaliação de serviço prestado
+
+Neste processo é realizada a avaliação do serviço prestado. A avaliação será feita após o serviço ser prestado. De acordo com a avaliação recebida o funcionário terá adicionado ao seu score de avaliação a sua ultima nota, sendo assim somado a média de todas as notas já feitas sobre aquele funcionário
+
 ![Processo 4](/docs/imagens_modelagem_processos/diagram_avaliacao_geral.png "P4")
 
-...
 
 
 ### 3.3.5 Processo 5 - Processo de pagamento geral.
