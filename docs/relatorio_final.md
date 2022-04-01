@@ -128,7 +128,7 @@ Neste processo após todos os participantes se cadastrarem e especificarem qual 
 
 Neste processo é realizada a contratação dos participantes. O contratante da festa procura um bar de eventos de acordo com sua escolha, eles realizam a comunicação e pós aceita o bar de eventos procura bartenders, coordenadores e fornecedores para festa através da plataforma. Caso a proposta seja aceita, a plataforma gera um contrato que contará com assinatura de ambas a parte, e depois do término da festa é realizada o pagamento a todos os integrantes desse processo.
 
-![Processo 3](/docs/imagens_modelagem_processos/Contratacao_Servico_D&D.png "P1")
+![Processo 3]( /docs/imagens_modelagem_processos/Correcao_Contratacao_Servico_D&D.png "P2")
 
 
 ### 3.3.4 Processo 4 – Processo de avaliação de serviço prestado
@@ -210,25 +210,32 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 
 #### Processo 2 – Contratação do Serviço
 
-**Solicitação do Serviço**
+**Verificação da Disponibilidade**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Área para solicitar serviço dos fornecedores | Área de texto | Mínimo 3 caracteres | Null |
-| Área para aceitar solicitação   |  Botão (Sim ou não)  |  Uma opção deve ser selecionada. | -- |
+| Área para verificar disponibilidade dos contratados | Perfil | -- | Null |
 
-**Dados do Serviço**
+**Realização da Proposta**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Área para calcular preço dos serviços | Tabela | Mínimo 3 caracteres | Null |
-|  Área para Informar cálculo dos ingredientes  |  Tabela  |  Mínimo 3 caracteres  | Null |
+| Área para envio da proposta | Área de texto | Mínimo 50 caracteres | Null |
 
-**Aceitação dos Serviços**
+**Aceitação de Proposta**
+
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-|  Área para aceitar serviços | Botão (Sim ou não) | Uma opção deve ser selecionada | -- |
-| Área para assinatura de contrato |  Arquivo (Gerado pela plataforma) | Mínimo 3 caracteres | -- | 
+| Área para comunicação entre contratante e contratado | Chat | -- | -- |
+| Envio de orçamento | Arquivo (Gerado pelos usuários) | -- | -- |
+
+**Geração do Contrato**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Geração do contrato | Arquivo (Gerado pela plataforma) | -- | -- |
+| Assinatura do contrato | Área de texto  | Máximo 100 caracteres | -- |
+
 
 #### Processo 3 – Pagamento
 
