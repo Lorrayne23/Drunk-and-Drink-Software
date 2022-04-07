@@ -133,9 +133,9 @@ Neste processo é realizada a avaliação do serviço prestado. A avaliação se
 
 ### 3.3.4 Processo 4 - Processo de pagamento geral.
 
-Neste processo é realizado todo o pagamento pendente aos participantes do evento. O pagamento será realizado pós a festa, já que é preciso uma confirmação para que ele seja feito. O responsável pelo pagamento é o contratante do evento, que irá liberar a quantia para cada empregado por meio da plataforma, pós enviado o pagamento será gerado uma nota fiscal de pagamento.
+Neste processo é realizado todo o pagamento pendente aos participantes do evento. O pagamento será realizado pós a festa, já que é preciso uma confirmação para que ele seja feito. O responsável pelo pagamento é o contratante do evento, que irá liberar a quantia para cada empregado por meio da plataforma, após enviado o pagamento será gerado uma nota fiscal de pagamento.
 
-![Processo 4](/docs/imagens_modelagem_processos/Processo_Pagamento.png "P4")
+![Processo 4](/docs/imagens_modelagem_processos/processo_pagamento.png "P4")
 
 
 ## 4. Projeto da Solução
