@@ -149,7 +149,7 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Identificação de Perfil | Múltipla Escolha |  |  |
+| Identificação de Perfil | Seleção Única |  |  |
 
 
 **Adicionar Informações do Funcionário**
@@ -178,7 +178,7 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 |E-mail| Caixa de Texto | Formato E-mail| |
 | Senha| Caixa de Texto | | |
 | Descrição de Perfil| Caixa de Texto| Máximo 50 Caractéres| |
-| Foto | Arquivo| PNG| |
+| Logo | Arquivo| PNG| |
 
 **Adicionar Informações do Contratante**
 
@@ -190,14 +190,9 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 | Cidade| Caixa de Texto| CEP Válido| |
 |E-mail| Caixa de Texto | Formato E-mail| |
 | Senha| Caixa de Texto | | |
-| Foto | Arquivo| PNG| |
 
-**Realizar Login**
 
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| E-mail | Caixa de Texto | Formato E-mail |  |
-|  Senha|  Caixa de Texto  |  | |
+
 
 
 #### Processo 2 – Contratação do Serviço
