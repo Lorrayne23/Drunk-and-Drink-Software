@@ -245,25 +245,23 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 
 #### Processo 4 – Pagamento
 
-**Confirmação de pagamento**
+**Confirmação do Evento**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Área de confirmar término evento | Botão (Sim ou não) | - | Não |
 
-**Adicionar dinheiro à plataforma**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Área para adicionar dinheiro | Múltipla Escolha | - |  Pix |
-| Quantidade de dinheiro para adionar | Campo de Texto | Apenas números | 0|
-
 **Área de pagamento**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
+| Área para realizar o pagamento | Escolha única | - |  Null |
+
+**Área de espera de pagemento**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
 | Espera/Recibo de pagamento (Funcionários em geral) | Arquivo (Gerado pela plataforma) | - | Null |
-| Envio de dinheiro (Dono BarTender)  | Botão | - | - |
 
 
 ### 4.2. Tecnologias
