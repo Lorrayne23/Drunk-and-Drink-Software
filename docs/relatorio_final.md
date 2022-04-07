@@ -115,36 +115,27 @@ Com o intuito de agregar valor a novas contratações e, evitar problemas na sol
 
 Nesse processo os usuários envolvidos se cadastram. Eles entram na plataforma e se identificam, especificam se desejam cadastrar sua empresa (organizador), em caso de serem donos de Bar de Eventos e desejam automatizar o seu negócio; se desejam se cadastrar para trabalhar em algum evento (funcionários em geral), sendo assim, adiconam suas informações e qualificações para que possa ser solicitado por algum organizador; ou caso o usuário esteja fazendo um evento (contratante) e deseja contratar um Bar de Eventos , ele se cadastra na plataforma e seleciona o Bar de Eventos de sua preferência para trabalhar em sua festa.
 
-![Processo 1]( /docs/imagens_modelagem_processos/modelagem_cadastramento_participantes_processo2.png "P2") 
+![Processo 1]( /docs/imagens_modelagem_processos/modelagem_cadastramento_participantes_processo2.png "P1") 
 
 
-### 3.3.2 Processo 2 – Processo de Lançamento de Propostas/Anúncios.
-
-Neste processo após todos os participantes se cadastrarem e especificarem qual sua atuação nesse negócio, é necessário contratar e ser contratado. Essa tarefa será feita pelo dono do evento (contratante) que pretende contratar um Bar para Eventos e pelo organizador que pretende contratar funcionários para trabalhar juntamente com sua equipe. Isso ocorrerá por meio de uma solicitação de interesse, a partir dos dados colocados no cadastramento, com trocas de mensagens diretas com informações do evento e em resposta se a proposta será aceita ou não.
-
-![Processo 2](/docs/imagens_modelagem_processos/correcao_processo_lancamento_proposta.png "P4")
-
-
-### 3.3.3 Processo 3 – Processo de contratação dos participantes do processo. 
+### 3.3.2 Processo 2 – Processo de contratação dos participantes do processo. 
 
 Neste processo é realizada a contratação dos participantes. O contratante da festa procura um bar de eventos de acordo com sua escolha, eles realizam a comunicação e pós aceita o bar de eventos procura bartenders, coordenadores e fornecedores para festa através da plataforma. Caso a proposta seja aceita, a plataforma gera um contrato que contará com assinatura de ambas a parte, e depois do término da festa é realizada o pagamento a todos os integrantes desse processo.
 
-![Processo 3]( /docs/imagens_modelagem_processos/Correcao_Contratacao_Servico_D&D.png "P2")
+![Processo 2]( /docs/imagens_modelagem_processos/Correcao_Contratacao_Servico_D&D.png "P2")
 
 
-### 3.3.4 Processo 4 – Processo de avaliação de serviço prestado
+### 3.3.3 Processo 3 – Processo de avaliação de serviço prestado
 
 Neste processo é realizada a avaliação do serviço prestado. A avaliação será feita após o serviço ser prestado. De acordo com a avaliação recebida o funcionário terá adicionado ao seu score de avaliação a sua ultima nota, sendo assim somado a média de todas as notas já feitas sobre aquele funcionário
 
-![Processo 4](/docs/imagens_modelagem_processos/diagram_avaliacao_geral.png "P4")
+![Processo 3](/docs/imagens_modelagem_processos/diagram_avaliacao_geral.png "P3")
 
+### 3.3.4 Processo 4 - Processo de pagamento geral.
 
+Neste processo é realizado todo o pagamento pendente aos participantes do evento. O pagamento será realizado pós a festa, já que é preciso uma confirmação para que ele seja feito. O responsável pelo pagamento é o contratante do evento, que irá liberar a quantia para cada empregado por meio da plataforma, pós enviado o pagamento será gerado uma nota fiscal de pagamento.
 
-### 3.3.5 Processo 5 - Processo de pagamento geral.
-
-Neste processo é realizado todo o pagamento pendente aos participantes do evento. O pagamento será realizado pós a festa, já que é preciso uma confirmação para que ele seja feito. O responsável pelo pagamento é o contratante do evento, que irá enviar a quantia para cada empregado por meio da plataforma, pós enviado o pagamento será gerado uma nota fiscal de pagamento.
-
-![Processo 6](/docs/imagens_modelagem_processos/Processo_Pagamento.png "P5")
+![Processo 4](/docs/imagens_modelagem_processos/Processo_Pagamento.png "P4")
 
 
 ## 4. Projeto da Solução
@@ -237,8 +228,22 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 | Geração do contrato | Arquivo (Gerado pela plataforma) | -- | -- |
 | Assinatura do contrato | Área de texto  | Máximo 100 caracteres | -- |
 
+#### Processo 3 – Avaliação de serviço prestado
+**Buscar por tipo de serviço**
 
-#### Processo 3 – Pagamento
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| filter | Seleção única   |  -  | - |
+| search name  | Caixa de texto  | mínimo de 2 caracteres| nome do prestador de serviço |
+
+**Avaliar serviço prestado**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| stars count | Seleção única   |  - | -|
+
+
+#### Processo 4 – Pagamento
 
 **Confirmação de pagamento**
 
@@ -260,20 +265,6 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 | Espera/Recibo de pagamento (Funcionários em geral) | Arquivo (Gerado pela plataforma) | - | Null |
 | Envio de dinheiro (Dono BarTender)  | Botão | - | - |
 
-
-#### Processo 4 – Avaliação de serviço prestado
-**Buscar por tipo de serviço**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| filter | Seleção única   |  -  | - |
-| search name  | Caixa de texto  | mínimo de 2 caracteres| nome do prestador de serviço |
-
-**Avaliar serviço prestado**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| stars count | Seleção única   |  - | -|
 
 ### 4.2. Tecnologias
 
