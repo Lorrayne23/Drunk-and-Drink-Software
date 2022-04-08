@@ -228,14 +228,14 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| filter | Seleção única   |  -  | - |
+| filter | Seleção única   |  Uma opção | Bar-Tender |
 | search name  | Caixa de texto  | mínimo de 2 caracteres| nome do prestador de serviço |
 
 **Avaliar serviço prestado**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| stars count | Seleção única   |  - | -|
+| stars count | Número  |  - | Uma estrela |
 
 
 #### Processo 4 – Pagamento
