@@ -115,14 +115,14 @@ Com o intuito de agregar valor a novas contratações e, evitar problemas na sol
 
 Nesse processo os usuários envolvidos se cadastram. Eles entram na plataforma e se identificam, especificam se desejam cadastrar sua empresa (organizador), em caso de serem donos de Bar de Eventos e desejam automatizar o seu negócio; se desejam se cadastrar para trabalhar em algum evento (funcionários em geral), sendo assim, adiconam suas informações e qualificações para que possa ser solicitado por algum organizador; ou caso o usuário esteja fazendo um evento (contratante) e deseja contratar um Bar de Eventos , ele se cadastra na plataforma e seleciona o Bar de Eventos de sua preferência para trabalhar em sua festa.
 
-![Processo 1]( /docs/imagens_modelagem_processos/modelagem_cadastramento_participantes_processo2.png "P1") 
+![Processo 1]( /docs/imagens_modelagem_processos/modelagem_cadastramento_participantes_processo(1).png "P1") 
 
 
 ### 3.3.2 Processo 2 – Processo de contratação dos participantes do processo. 
 
 Neste processo é realizada a contratação dos participantes. O contratante da festa procura um bar de eventos de acordo com sua escolha, eles realizam a comunicação e pós aceita o bar de eventos procura bartenders, coordenadores e fornecedores para festa através da plataforma. Caso a proposta seja aceita, a plataforma gera um contrato que contará com assinatura de ambas a parte, e depois do término da festa é realizada o pagamento a todos os integrantes desse processo.
 
-![Processo 2]( /docs/imagens_modelagem_processos/Correcao_Contratacao_Servico_D&D.png "P2")
+![Processo 2]( /docs/imagens_modelagem_processos/Diagrama_Corrigido_Contratação_Fornecedor.png "P2")
 
 
 ### 3.3.3 Processo 3 – Processo de avaliação de serviço prestado
@@ -201,7 +201,7 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Área para verificar disponibilidade dos contratados | Perfil | -- | Null |
+| Área para pesquisar por funcionário| Perfil | -- | Null |
 
 **Realização da Proposta**
 
@@ -228,14 +228,14 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| filter | Seleção única   |  -  | - |
+| filter | Seleção única   |  Uma opção | Bar-Tender |
 | search name  | Caixa de texto  | mínimo de 2 caracteres| nome do prestador de serviço |
 
 **Avaliar serviço prestado**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| stars count | Seleção única   |  - | -|
+| stars count | Número  |  - | Uma estrela |
 
 
 #### Processo 4 – Pagamento
@@ -261,13 +261,13 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 
 ### 4.2. Tecnologias
 
-Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas. Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+Utilização do TerraER na modelagem de dados, uma plataforma gratuita e intuitiva para a realização do Modelo de Endidade e Relacionamento(DER), primeiro step para a realização final de scrips de consulta em Bancos de Dados.
 
 ## 5. Modelo de dados
 
-Apresente o modelo de dados por meio de um modelo relacional ou Diagrama de Entidade-Relacionamento (DER) que contemple todos conceitos e atributos apresentados item anterior. 
+DER:
 
-![Diagrama de Entidade Relacionamento de Exemplo](imagens/er_diagram.png "Diagrama de Entidade Relacionamento de Exemplo")
+![Diagrama de Entidade Relacionamento de Exemplo](imagens_modelo_dados/DER_DrunkDrink_IMG.png "Diagrama de Entidade Relacionamento")
 
 ## 6. Indicadores de desempenho
 
