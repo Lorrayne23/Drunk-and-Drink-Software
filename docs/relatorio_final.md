@@ -161,7 +161,7 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 | Telefone de Contato | Caixa de Texto | Apenas Números | |
 | Cidade| Caixa de Texto| CEP Válido| |
 |E-mail| Caixa de Texto | Formato E-mail| |
-| Senha| Caixa de Texto | | |
+| Senha| Caixa de Texto | Caractere maiúsculo é especial| |
 | Currículo| Arquivo| PDF| |
 | Descrição de Perfil| Caixa de Texto| Máximo 50 Caractéres| |
 | Foto | Arquivo| PNG, JPEG, JPG| |
@@ -176,7 +176,7 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 | Telefone de Contato | Caixa de Texto | Apenas Números | |
 | Cidade| Caixa de Texto| CEP Válido| |
 |E-mail| Caixa de Texto | Formato E-mail| |
-| Senha| Caixa de Texto | | |
+| Senha| Caixa de Texto | Caractere maiúsculo é especial| |
 | Descrição de Perfil| Caixa de Texto| Máximo 50 Caractéres| |
 | Logo | Arquivo|  PNG, JPEG, JPG| |
 
