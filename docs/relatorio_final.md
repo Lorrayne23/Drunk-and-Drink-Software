@@ -164,7 +164,7 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 | Senha| Caixa de Texto | | |
 | Currículo| Arquivo| PDF| |
 | Descrição de Perfil| Caixa de Texto| Máximo 50 Caractéres| |
-| Foto | Arquivo| PNG| |
+| Foto | Arquivo| PNG, JPEG, JPG| |
 
 
 **Adicionar Informações da Empresa**
@@ -178,7 +178,7 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 |E-mail| Caixa de Texto | Formato E-mail| |
 | Senha| Caixa de Texto | | |
 | Descrição de Perfil| Caixa de Texto| Máximo 50 Caractéres| |
-| Logo | Arquivo| PNG| |
+| Logo | Arquivo|  PNG, JPEG, JPG| |
 
 **Adicionar Informações do Contratante**
 
@@ -189,7 +189,7 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 | Telefone de Contato | Caixa de Texto | Apenas Números | |
 | Cidade| Caixa de Texto| CEP Válido| |
 |E-mail| Caixa de Texto | Formato E-mail| |
-| Senha| Caixa de Texto | | |
+| Senha| Caixa de Texto | Caractere maiúsculo é especial| |
 
 
 
@@ -207,7 +207,7 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Área para envio da proposta | Área de texto | Mínimo 50 caracteres | Null |
+| Área para envio da proposta | Área de texto | -- | Null |
 
 **Aceitação de Proposta**
 
@@ -267,7 +267,7 @@ Utilização do TerraER na modelagem de dados, uma plataforma gratuita e intuiti
 
 DER:
 
-![Diagrama de Entidade Relacionamento de Exemplo](imagens_modelo_dados/DER_DrunkDrink_IMG.png "Diagrama de Entidade Relacionamento")
+![Diagrama de Entidade Relacionamento de Exemplo](/docs/imagens_modelo_dados/DER_DrunkDrink.png "Diagrama de Entidade Relacionamento")
 
 ## 6. Indicadores de desempenho
 
