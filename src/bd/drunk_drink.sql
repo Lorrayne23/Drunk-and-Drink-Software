@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 28-Abr-2022 às 00:05
+-- Tempo de geração: 04-Maio-2022 às 22:34
 -- Versão do servidor: 10.4.24-MariaDB
 -- versão do PHP: 8.1.4
 
@@ -45,15 +45,9 @@ CREATE TABLE `bar_eventos` (
   `descricao` varchar(200) NOT NULL,
   `nome` varchar(25) NOT NULL,
   `telefone` bigint(11) NOT NULL,
-  `email` varchar(40) NOT NULL
+  `email` varchar(40) NOT NULL,
+  `avaliacao` double NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Extraindo dados da tabela `bar_eventos`
---
-
-INSERT INTO `bar_eventos` (`cep`, `senha`, `cnpj`, `descricao`, `nome`, `telefone`, `email`) VALUES
-('30526123', '12345678', 12345678912345, 'caslkçdhfspdifhsdçfgsdfsgdfç', 'FIfa Point', 31987456321, 'fifapoint@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -65,13 +59,6 @@ CREATE TABLE `contratante_evento` (
   `id_contratanteEvento` bigint(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Extraindo dados da tabela `contratante_evento`
---
-
-INSERT INTO `contratante_evento` (`id_contratanteEvento`) VALUES
-(15653205656);
-
 -- --------------------------------------------------------
 
 --
@@ -81,13 +68,6 @@ INSERT INTO `contratante_evento` (`id_contratanteEvento`) VALUES
 CREATE TABLE `coordenador` (
   `id_coordenador` bigint(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Extraindo dados da tabela `coordenador`
---
-
-INSERT INTO `coordenador` (`id_coordenador`) VALUES
-(123456789012);
 
 -- --------------------------------------------------------
 
@@ -103,15 +83,9 @@ CREATE TABLE `evento` (
   `duracao` time NOT NULL,
   `hora_termino` time NOT NULL,
   `endereco` varchar(50) NOT NULL,
+  `id_contratanteEvento` bigint(11) NOT NULL,
   `num_evento` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Extraindo dados da tabela `evento`
---
-
-INSERT INTO `evento` (`bar_evento`, `quantidade_participantes`, `nome`, `hora_inicio`, `duracao`, `hora_termino`, `endereco`, `num_evento`) VALUES
-(12345678912345, 500, 'FIfa Point', '33:01:14', '00:00:50', '52:01:14', 'Rua do Amor Paterno', 1);
 
 -- --------------------------------------------------------
 
@@ -130,20 +104,26 @@ CREATE TABLE `fornecedor` (
 --
 
 CREATE TABLE `funcionario` (
-  `eventos_realizados` int(11) NOT NULL,
-  `media_avaliacao` double DEFAULT NULL,
+  `avaliacao` double DEFAULT NULL,
   `dados_bancarios` varchar(200) NOT NULL,
   `descricao` varchar(200) NOT NULL,
   `id_funcionario` bigint(20) NOT NULL,
-  `cnpj_barEvento` bigint(20) DEFAULT NULL
+  `cnpj_barEvento` bigint(20) DEFAULT NULL,
+  `preco_hora` double NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+-- --------------------------------------------------------
+
 --
--- Extraindo dados da tabela `funcionario`
+-- Estrutura da tabela `pagamento`
 --
 
-INSERT INTO `funcionario` (`eventos_realizados`, `media_avaliacao`, `dados_bancarios`, `descricao`, `id_funcionario`, `cnpj_barEvento`) VALUES
-(20, NULL, 'asdasjldkgasldasda265a4d6asd', 'asdhasdipashdpiashdasd', 123456789012, NULL);
+CREATE TABLE `pagamento` (
+  `idPagamento` bigint(20) NOT NULL,
+  `valor` bigint(20) NOT NULL,
+  `id_funcionario` bigint(20) DEFAULT NULL,
+  `cnpj_barEvento` bigint(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -159,14 +139,6 @@ CREATE TABLE `pessoa` (
   `telefone` bigint(11) NOT NULL,
   `email` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Extraindo dados da tabela `pessoa`
---
-
-INSERT INTO `pessoa` (`nome`, `cpf`, `senha`, `endereco`, `telefone`, `email`) VALUES
-('Pablo', 15653205656, 12345678, 'Alvares Cabral', 31982378197, 'pablo@gmail.com'),
-('Victor', 123456789012, 123456, 'Belo Horizonte', 31985647234, 'victor@gmail.com');
 
 --
 -- Índices para tabelas despejadas
@@ -204,7 +176,8 @@ ALTER TABLE `coordenador`
 ALTER TABLE `evento`
   ADD PRIMARY KEY (`bar_evento`),
   ADD UNIQUE KEY `bar_evento` (`bar_evento`),
-  ADD UNIQUE KEY `UNIQUE` (`num_evento`);
+  ADD UNIQUE KEY `UNIQUE` (`id_contratanteEvento`),
+  ADD UNIQUE KEY `num_evento` (`num_evento`);
 
 --
 -- Índices para tabela `fornecedor`
@@ -220,6 +193,14 @@ ALTER TABLE `funcionario`
   ADD PRIMARY KEY (`id_funcionario`),
   ADD UNIQUE KEY `id_funcionario` (`id_funcionario`),
   ADD KEY `cnpj_barEvento` (`cnpj_barEvento`);
+
+--
+-- Índices para tabela `pagamento`
+--
+ALTER TABLE `pagamento`
+  ADD PRIMARY KEY (`idPagamento`),
+  ADD UNIQUE KEY `id_funcionario` (`id_funcionario`),
+  ADD UNIQUE KEY `cnpj_barEvento` (`cnpj_barEvento`);
 
 --
 -- Índices para tabela `pessoa`
@@ -253,7 +234,7 @@ ALTER TABLE `coordenador`
 -- AUTO_INCREMENT de tabela `evento`
 --
 ALTER TABLE `evento`
-  MODIFY `num_evento` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `num_evento` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `fornecedor`
@@ -266,6 +247,12 @@ ALTER TABLE `fornecedor`
 --
 ALTER TABLE `funcionario`
   MODIFY `id_funcionario` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=123456789013;
+
+--
+-- AUTO_INCREMENT de tabela `pagamento`
+--
+ALTER TABLE `pagamento`
+  MODIFY `idPagamento` bigint(20) NOT NULL AUTO_INCREMENT;
 
 --
 -- Restrições para despejos de tabelas
@@ -293,7 +280,8 @@ ALTER TABLE `coordenador`
 -- Limitadores para a tabela `evento`
 --
 ALTER TABLE `evento`
-  ADD CONSTRAINT `evento_ibfk_1` FOREIGN KEY (`bar_evento`) REFERENCES `bar_eventos` (`cnpj`);
+  ADD CONSTRAINT `evento_ibfk_1` FOREIGN KEY (`bar_evento`) REFERENCES `bar_eventos` (`cnpj`),
+  ADD CONSTRAINT `evento_ibfk_2` FOREIGN KEY (`id_contratanteEvento`) REFERENCES `contratante_evento` (`id_contratanteEvento`);
 
 --
 -- Limitadores para a tabela `fornecedor`
@@ -307,6 +295,13 @@ ALTER TABLE `fornecedor`
 ALTER TABLE `funcionario`
   ADD CONSTRAINT `funcionario_ibfk_1` FOREIGN KEY (`id_funcionario`) REFERENCES `pessoa` (`cpf`),
   ADD CONSTRAINT `funcionario_ibfk_2` FOREIGN KEY (`cnpj_barEvento`) REFERENCES `bar_eventos` (`cnpj`);
+
+--
+-- Limitadores para a tabela `pagamento`
+--
+ALTER TABLE `pagamento`
+  ADD CONSTRAINT `pagamento_ibfk_1` FOREIGN KEY (`cnpj_barEvento`) REFERENCES `bar_eventos` (`cnpj`),
+  ADD CONSTRAINT `pagamento_ibfk_2` FOREIGN KEY (`id_funcionario`) REFERENCES `funcionario` (`id_funcionario`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
