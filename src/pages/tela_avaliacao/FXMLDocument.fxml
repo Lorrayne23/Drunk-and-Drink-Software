@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="768.0" maxWidth="1366.0" minHeight="768.0" minWidth="1366.0" prefHeight="768.0" prefWidth="1366.0" stylesheets="@Stylesheet.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication4.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button id="button_avaliar" layoutX="1166.0" layoutY="672.0" mnemonicParsing="false" stylesheets="@Stylesheet.css" text="Avaliar" textFill="#f7a34a">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Line endX="1352.0" layoutX="14.0" layoutY="102.0" startX="-14.0" stroke="#f7a34a" strokeWidth="2.0" />
+      <Label layoutX="485.0" layoutY="30.0" text="Home" textFill="#fac58e">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="621.0" layoutY="30.0" text="Eventos" textFill="#f7a34a">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="791.0" layoutY="30.0" text="Chat" textFill="#fac58e">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Line endX="124.0" layoutX="621.0" layoutY="83.0" startX="-4.66668701171875" stroke="#f7a34a" />
+      <Pane id="panel_2" layoutX="512.0" layoutY="231.0" prefHeight="300.0" prefWidth="300.0" stylesheets="@Stylesheet.css">
+         <children>
+            <Line endX="179.0" layoutX="120.0" layoutY="233.0" startX="-119.0" stroke="#f7a34a" />
+            <ImageView fx:id="img_2" fitHeight="97.0" fitWidth="97.0" layoutX="109.0" layoutY="45.0">
+               <image>
+                  <Image url="@img/Perfil.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane id="panel_1" layoutX="124.0" layoutY="231.0" prefHeight="300.0" prefWidth="300.0" stylesheets="@Stylesheet.css">
+         <children>
+            <Line endX="181.0" layoutX="118.0" layoutY="235.0" startX="-117.0" stroke="#f7a34a" />
+            <Label layoutX="41.0" layoutY="172.0" stylesheets="@Stylesheet.css" text="Pablo Magalhães" textFill="#f7a34a">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="428.0" layoutY="172.0" stylesheets="@Stylesheet.css" text="Augusto Carneiro" textFill="#f7a34a">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="img_1" fitHeight="97.0" fitWidth="97.0" layoutX="104.0" layoutY="45.0">
+               <image>
+                  <Image url="@img/Perfil.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="28.0" layoutY="247.0">
+               <image>
+                  <Image url="@img/Star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="78.0" layoutY="247.0">
+               <image>
+                  <Image url="@img/Star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="127.0" layoutY="247.0">
+               <image>
+                  <Image url="@img/Star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="176.0" layoutY="247.0">
+               <image>
+                  <Image url="@img/Star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="225.0" layoutY="247.0">
+               <image>
+                  <Image url="@img/Star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="418.0" layoutY="247.0">
+               <image>
+                  <Image url="@img/Star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="468.0" layoutY="247.0">
+               <image>
+                  <Image url="@img/Star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="517.0" layoutY="247.0">
+               <image>
+                  <Image url="@img/Star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="566.0" layoutY="247.0">
+               <image>
+                  <Image url="@img/Star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="615.0" layoutY="247.0">
+               <image>
+                  <Image url="@img/Star.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane id="panel_3" layoutX="900.0" layoutY="231.0" prefHeight="300.0" prefWidth="300.0" stylesheets="@Stylesheet.css">
+         <children>
+            <Line endX="177.0" layoutX="122.0" layoutY="233.0" startX="-121.0" stroke="#f7a34a" />
+            <Label layoutX="52.0" layoutY="172.0" stylesheets="@Stylesheet.css" text="Bar DrunkDrink" textFill="#f7a34a">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="img_3" fitHeight="97.0" fitWidth="97.0" layoutX="105.0" layoutY="45.0">
+               <image>
+                  <Image url="@img/Perfil.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="26.0" layoutY="246.0">
+               <image>
+                  <Image url="@img/Star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="76.0" layoutY="246.0">
+               <image>
+                  <Image url="@img/Star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="125.0" layoutY="246.0">
+               <image>
+                  <Image url="@img/Star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="174.0" layoutY="246.0">
+               <image>
+                  <Image url="@img/Star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="223.0" layoutY="246.0">
+               <image>
+                  <Image url="@img/Star.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fx:id="img_4" fitHeight="57.0" fitWidth="57.0" layoutX="1269.0" layoutY="19.0">
+         <image>
+            <Image url="@img/Perfil.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

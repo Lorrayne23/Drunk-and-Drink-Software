@@ -1,0 +1,21 @@
+AnchorPane{
+    -fx-background-color: #110E0E;
+}
+
+#button_avaliar{
+    -fx-background-color: #110E0E;
+    -fx-border-color: #F7A34A;
+}
+
+#panel_1{
+    -fx-background-color: #150A0A;
+    -fx-border-color: #F7A34A; 
+}
+#panel_2{
+    -fx-background-color: #150A0A;
+    -fx-border-color: #F7A34A; 
+}
+#panel_3{
+    -fx-background-color: #150A0A;
+    -fx-border-color: #F7A34A; 
+}
