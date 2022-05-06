@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="1080.0" prefWidth="1980.0" style="-fx-background-color: #EDEEEC;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tela.inicial.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button layoutX="1034.0" layoutY="957.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="857.0" style="-fx-background-color: 0; -fx-border-color: #000000;" text="Veja seus eventos">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Pane layoutX="100.0" layoutY="329.0" prefHeight="504.0" prefWidth="604.0" style="-fx-border-color: #000000;">
+         <children>
+            <Button layoutX="320.0" layoutY="222.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="240.0" style="-fx-background-color: 0; -fx-border-color: #000000;" text="Vizualizar Perfil">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Text layoutX="250.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10 eventos realizados">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="250.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Pablo Magalhães">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="250.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5 agendados">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Line endX="503.0" layoutX="101.0" layoutY="311.0" startX="-100.0" />
+            <ImageView fx:id="star2" fitHeight="75.0" fitWidth="75.0" layoutX="164.0" layoutY="357.0">
+               <image>
+                  <Image url="@../../img/Camada%202.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="star3" fitHeight="75.0" fitWidth="75.0" layoutX="264.0" layoutY="357.0">
+               <image>
+                  <Image url="@../../img/Camada%202.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="star4" fitHeight="75.0" fitWidth="75.0" layoutX="364.0" layoutY="357.0">
+               <image>
+                  <Image url="@../../img/Camada%202.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="star1" fitHeight="75.0" fitWidth="75.0" layoutX="64.0" layoutY="357.0">
+               <image>
+                  <Image url="@../../img/Camada%202.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="star5" fitHeight="75.0" fitWidth="75.0" layoutX="464.0" layoutY="357.0">
+               <image>
+                  <Image url="@../../img/Camada%202.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="perfil1" fitHeight="180.0" fitWidth="180.0" layoutX="25.0" layoutY="35.0">
+               <image>
+                  <Image url="@../../img/token_1%20(3).png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="verificado" fitHeight="18.0" fitWidth="18.0" layoutX="456.0" layoutY="63.0">
+               <image>
+                  <Image url="@../../img/verificado.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Line endX="1764.0" layoutX="216.0" layoutY="130.0" startX="-216.0" />
+      <Text layoutX="100.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Boa noite, Pablo">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <Button layoutX="644.0" layoutY="24.0" mnemonicParsing="false" style="-fx-background-color: 0;" text="Home">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="894.0" layoutY="24.0" mnemonicParsing="false" style="-fx-background-color: 0;" text="Eventos">
+         <font>
+            <Font size="40.0" />
+         </font></Button>
+      <Button layoutX="1144.0" layoutY="24.0" mnemonicParsing="false" style="-fx-background-color: 0;" text="Chat">
+         <font>
+            <Font size="40.0" />
+         </font></Button>
+      <ImageView fx:id="perfil2" fitHeight="110.0" fitWidth="110.0" layoutX="1830.0" layoutY="11.0">
+         <image>
+            <Image url="@../../img/token_1%20(3).png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
