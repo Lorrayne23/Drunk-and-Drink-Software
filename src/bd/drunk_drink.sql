@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 04-Maio-2022 às 22:34
+-- Tempo de geração: 06-Maio-2022 às 03:18
 -- Versão do servidor: 10.4.24-MariaDB
 -- versão do PHP: 8.1.4
 
@@ -32,6 +32,13 @@ CREATE TABLE `bartender` (
   `curriculo` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Extraindo dados da tabela `bartender`
+--
+
+INSERT INTO `bartender` (`id_bartender`, `curriculo`) VALUES
+(1565320565, 'dasdasdasd');
+
 -- --------------------------------------------------------
 
 --
@@ -49,6 +56,14 @@ CREATE TABLE `bar_eventos` (
   `avaliacao` double NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Extraindo dados da tabela `bar_eventos`
+--
+
+INSERT INTO `bar_eventos` (`cep`, `senha`, `cnpj`, `descricao`, `nome`, `telefone`, `email`, `avaliacao`) VALUES
+('', '', 0, '', '', 0, '', 0),
+('30330220', '1234567', 97310548000170, 'fifa rembo', 'Bar de palhaços', 313295789, 'barpalhacada@gmail.com', 4.5);
+
 -- --------------------------------------------------------
 
 --
@@ -59,6 +74,13 @@ CREATE TABLE `contratante_evento` (
   `id_contratanteEvento` bigint(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Extraindo dados da tabela `contratante_evento`
+--
+
+INSERT INTO `contratante_evento` (`id_contratanteEvento`) VALUES
+(1983892083);
+
 -- --------------------------------------------------------
 
 --
@@ -68,6 +90,13 @@ CREATE TABLE `contratante_evento` (
 CREATE TABLE `coordenador` (
   `id_coordenador` bigint(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Extraindo dados da tabela `coordenador`
+--
+
+INSERT INTO `coordenador` (`id_coordenador`) VALUES
+(1983892083);
 
 -- --------------------------------------------------------
 
@@ -87,6 +116,13 @@ CREATE TABLE `evento` (
   `num_evento` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Extraindo dados da tabela `evento`
+--
+
+INSERT INTO `evento` (`bar_evento`, `quantidade_participantes`, `nome`, `hora_inicio`, `duracao`, `hora_termino`, `endereco`, `id_contratanteEvento`, `num_evento`) VALUES
+(97310548000170, 500, 'Festinha na praça', '10:20:00', '00:00:06', '03:20:00', 'Rua dos apaixonados 69', 1983892083, 38);
+
 -- --------------------------------------------------------
 
 --
@@ -96,6 +132,13 @@ CREATE TABLE `evento` (
 CREATE TABLE `fornecedor` (
   `id_fornecedor` bigint(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Extraindo dados da tabela `fornecedor`
+--
+
+INSERT INTO `fornecedor` (`id_fornecedor`) VALUES
+(1983892083);
 
 -- --------------------------------------------------------
 
@@ -112,6 +155,15 @@ CREATE TABLE `funcionario` (
   `preco_hora` double NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Extraindo dados da tabela `funcionario`
+--
+
+INSERT INTO `funcionario` (`avaliacao`, `dados_bancarios`, `descricao`, `id_funcionario`, `cnpj_barEvento`, `preco_hora`) VALUES
+(NULL, 'asasdasd', 'adsadasd', 1565320565, NULL, 30),
+(3.8, 'Donec ornare vel lacus non pulvinar. Nunc blandit, nunc ut sollicitudin sodales, velit mauris auctor urna, sed ultrices quam leo a magna. Praesent vel faucibus leo. Morbi dapibus at mi ac vehicula. Do', 'Nunc iaculis auctor fermentum. Ut auctor blandit ante. Suspendisse potenti. Nam non eros nunc. Ut vitae purus porta, egestas turpis sit amet, ullamcorper mi. Aliquam blandit sapien eu nulla commodo, i', 1983892083, 97310548000170, 120),
+(4.5, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula mauris id erat fermentum, in iaculis nunc suscipit. Aliquam faucibus, nisi sagittis volutpat placerat, ex eros semper tortor, ', 'Etiam ut dolor at ligula vehicula aliquet quis rutrum lorem. Cras hendrerit nisi sit amet magna dignissim finibus. Morbi tristique fermentum malesuada. Pellentesque habitant morbi tristique senectus e', 78920355533, 97310548000170, 30);
+
 -- --------------------------------------------------------
 
 --
@@ -124,6 +176,13 @@ CREATE TABLE `pagamento` (
   `id_funcionario` bigint(20) DEFAULT NULL,
   `cnpj_barEvento` bigint(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Extraindo dados da tabela `pagamento`
+--
+
+INSERT INTO `pagamento` (`idPagamento`, `valor`, `id_funcionario`, `cnpj_barEvento`) VALUES
+(27, 50000, NULL, 97310548000170);
 
 -- --------------------------------------------------------
 
@@ -139,6 +198,15 @@ CREATE TABLE `pessoa` (
   `telefone` bigint(11) NOT NULL,
   `email` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Extraindo dados da tabela `pessoa`
+--
+
+INSERT INTO `pessoa` (`nome`, `cpf`, `senha`, `endereco`, `telefone`, `email`) VALUES
+('Pablo', 1565320565, 1234, 'asdasdas', 31982378197, 'pablo@gmail.com'),
+('Victor Hugo Criscollo', 1983892083, 1234567, 'rua do amor 456', 3199976890, 'torugoBALA@gmail.com'),
+('jose alfredo alcantra', 78920355533, 78653628, 'rua das pitangas 555', 317876357, 'jose.comercial@gmail.com');
 
 --
 -- Índices para tabelas despejadas
@@ -216,7 +284,7 @@ ALTER TABLE `pessoa`
 -- AUTO_INCREMENT de tabela `bartender`
 --
 ALTER TABLE `bartender`
-  MODIFY `id_bartender` bigint(20) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_bartender` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1565320566;
 
 --
 -- AUTO_INCREMENT de tabela `contratante_evento`
@@ -234,13 +302,13 @@ ALTER TABLE `coordenador`
 -- AUTO_INCREMENT de tabela `evento`
 --
 ALTER TABLE `evento`
-  MODIFY `num_evento` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `num_evento` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
 
 --
 -- AUTO_INCREMENT de tabela `fornecedor`
 --
 ALTER TABLE `fornecedor`
-  MODIFY `id_fornecedor` bigint(20) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_fornecedor` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1983892084;
 
 --
 -- AUTO_INCREMENT de tabela `funcionario`
@@ -252,7 +320,7 @@ ALTER TABLE `funcionario`
 -- AUTO_INCREMENT de tabela `pagamento`
 --
 ALTER TABLE `pagamento`
-  MODIFY `idPagamento` bigint(20) NOT NULL AUTO_INCREMENT;
+  MODIFY `idPagamento` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- Restrições para despejos de tabelas
