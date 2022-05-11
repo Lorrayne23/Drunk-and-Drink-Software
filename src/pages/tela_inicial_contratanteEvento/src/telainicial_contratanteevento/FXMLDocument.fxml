@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="1080.0" prefWidth="1980.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="telainicial_contratanteevento.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button layoutX="1034.0" layoutY="957.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="857.0" style="-fx-background-color: 0; -fx-border-color: #f7a34a;" text="Veja a progressão do seu evento" textFill="#f7a34a">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Pane id="pane1" layoutX="100.0" layoutY="329.0" prefHeight="316.0" prefWidth="604.0">
+         <children>
+            <Button id="button_1" layoutX="320.0" layoutY="222.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="240.0" text="Vizualizar Perfil">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Text fill="#f7a34a" layoutX="250.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0 Eventos Realizados">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#f7a34a" layoutX="250.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Lorrayne">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="perfil1" fitHeight="180.0" fitWidth="180.0" layoutX="25.0" layoutY="35.0">
+               <image>
+                  <Image url="@../img/token_1%20(3).png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="verificado" fitHeight="18.0" fitWidth="18.0" layoutX="456.0" layoutY="63.0">
+               <image>
+                  <Image url="@../img/verificado.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Line endX="1764.0" layoutX="216.0" layoutY="130.0" startX="-216.0" stroke="#f7a34a" />
+      <Text fill="#f7a34a" layoutX="100.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Boa noite, Lorrayne">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <Button layoutX="644.0" layoutY="24.0" mnemonicParsing="false" style="-fx-background-color: 0;" text="Home" textFill="#f7a34a">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="894.0" layoutY="24.0" mnemonicParsing="false" style="-fx-background-color: 0;" text="Eventos" textFill="#fac58e">
+         <font>
+            <Font size="40.0" />
+         </font></Button>
+      <Button layoutX="1144.0" layoutY="24.0" mnemonicParsing="false" style="-fx-background-color: 0;" text="Chat" textFill="#fac58e">
+         <font>
+            <Font size="40.0" />
+         </font></Button>
+      <ImageView fx:id="perfil2" fitHeight="110.0" fitWidth="110.0" layoutX="1830.0" layoutY="11.0">
+         <image>
+            <Image url="@../img/token_1%20(3).png" />
+         </image>
+      </ImageView>
+      <Pane id="pane2" layoutX="1033.0" layoutY="328.0" prefHeight="524.0" prefWidth="857.0">
+         <children>
+            <Line endX="428.0" layoutX="429.0" layoutY="110.0" startX="-429.0" stroke="#f7a34a" />
+            <Label layoutX="327.0" layoutY="34.0" text="Resumo Evento" textFill="#f7a34a">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="148.0" text="Bar contratado: Drunk Drink" textFill="#f7a34a">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="185.0" text="Funcionário(s) Contratado(s): Pablo Augusto" textFill="#f7a34a">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="458.0" text="Dia evento: 06/05/2022" textFill="#f7a34a">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>

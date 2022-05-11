@@ -1,0 +1,26 @@
+AnchorPane{
+    
+    -fx-background-color: #110E0E;
+    
+}
+
+#pane1{
+    
+    -fx-background-color: #150A0A;
+    -fx-border-color:  #F7A34A;
+    
+}
+
+#pane2{
+    
+    -fx-background-color: #150A0A;
+    -fx-border-color:  #F7A34A;
+    
+}
+
+#button_1{
+    
+    -fx-background-color: #150A0A;
+    -fx-border-color:  #F7A34A;
+    -fx-text-fill: #F7A34A;
+}
