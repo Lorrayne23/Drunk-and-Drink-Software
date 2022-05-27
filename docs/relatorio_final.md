@@ -277,9 +277,11 @@ Usar o seguinte modelo:
 
 | **Indicador** | **Objetivos** | **Descrição** | **Cálculo** | **Fonte dados** | **Perspectiva** |
 | --- | --- | --- | --- | --- | --- |
-| Percentual reclamações | Avaliar quantitativamente as reclamações | Percentual de reclamações em relação ao total atendimento |   | Tabela reclamações | Aprendizado e Crescimento |
-| Taxa de Requisições abertas | Melhorar a prestação de serviços medindo a porcentagem de requisições | Mede % de requisições atendidas na semana | ![\frac{\sum{atendidas}}{\sum{requisicoes}}100](https://latex.codecogs.com/svg.latex?\frac{\sum{atendidas}}{\sum{requisicoes}}100) | Tabela solicitações | Processos internos |
-| Taxa de entrega de material | Manter controle sobre os materiais que estão sendo entregues | Mede % de material entregue dentro do mês |   | Tabela Pedidos | Clientes |
+| cadastramentos | medir a quantidade de cadastramentos na plataforma | mede quantidade de cadastros na plataforma por semana | somatório de cadastros feitos por semana  | tabela pessoa | processos internos |
+| avaliações| medir a quantidade de avaliações dos serviços prestados nos eventos pela plataforma | mede a quantidade de avaliações feitas pela plataforma por semana | soma da quantidade de avaliações | Tabela funcionários | Processos internos |
+| eventos | medir a quantidade de eventos feitos pela plataforma| mede a quantidade de eventos realizados por dia | subtração de interesse dos contratantes pela quantidade de eventos realizados  | Tabela eventos | processos internos |
+| pagamentos | medir quantidade de pagamentos realizados pela plataforma| mede a quantidade de pagamentos feitos pela plataforma por eventos realizados por semana | subtração  da quantidade de eventos pela quantidade de pagamentos feitos na plataforma  | Tabela pagamento | processos internos |
+| evento por bar | medir quantidade de eventos realizados| mede a quantidade de eventos realizados por bar no mês | somatório de eventos realizados | Tabela evento |cliente |
 
 Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe **a ser proposto**
 
