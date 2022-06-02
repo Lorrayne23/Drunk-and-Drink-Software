@@ -277,11 +277,11 @@ Usar o seguinte modelo:
 
 | **Indicador** | **Objetivos** | **Descrição** | **Cálculo** | **Fonte dados** | **Perspectiva** |
 | --- | --- | --- | --- | --- | --- |
-| cadastramentos | medir a quantidade de cadastramentos na plataforma | mede quantidade de cadastros na plataforma por semana | somatório de cadastros feitos por semana  | tabela pessoa | processos internos |
-| avaliações| medir a quantidade de avaliações dos serviços prestados nos eventos pela plataforma | mede a quantidade de avaliações feitas pela plataforma por semana | soma da quantidade de avaliações | Tabela funcionários | Processos internos |
-| eventos | medir a quantidade de eventos feitos pela plataforma| mede a quantidade de eventos realizados por dia | subtração de interesse dos contratantes pela quantidade de eventos realizados  | Tabela eventos | processos internos |
-| pagamentos | medir quantidade de pagamentos realizados pela plataforma| mede a quantidade de pagamentos feitos pela plataforma por eventos realizados por semana | subtração  da quantidade de eventos pela quantidade de pagamentos feitos na plataforma  | Tabela pagamento | processos internos |
-| evento por bar | medir quantidade de eventos realizados| mede a quantidade de eventos realizados por bar no mês | somatório de eventos realizados | Tabela evento |cliente |
+| cadastramentos | medir a quantidade de cadastramentos na plataforma | mede a porcentagem de cadastros na plataforma por semana | ∑ cadastros  | tabela pessoa | processos internos |
+| avaliações| medir a quantidade de avaliações dos serviços prestados nos eventos pela plataforma | mede a porcentagem de avaliações feitas pela plataforma por semana | ∑ avaliações | Tabela funcionários | Processos internos |
+| eventos | medir a quantidade de eventos feitos pela plataforma| mede a porcentagem de eventos realizados por dia | ∑ eventos | Tabela eventos | processos internos |
+| pagamentos pela plataforma | medir quantidade de pagamentos realizados pela plataforma| mede a porcentagem de pagamentos feitos pela plataforma realizados por semana | eventos - pagamentos | Tabela pagamento | processos internos |
+| evento por bar | medir quantidade de eventos realizados| mede a porcentagem de eventos realizados por bar no mês | ∑ eventos | Tabela evento |cliente |
 
 Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe **a ser proposto**
 
