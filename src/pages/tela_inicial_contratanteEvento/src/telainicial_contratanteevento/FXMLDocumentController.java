@@ -11,12 +11,55 @@ import javafx.scene.control.Label;
 public class FXMLDocumentController implements Initializable {
     
     @FXML
-    private Label label;
-    
+    private Button buttonChat;
+
     @FXML
-    private void handleButtonAction(ActionEvent event) {
-        System.out.println("You clicked me!");
-        label.setText("Hello World!");
+    private Button buttonEventos;
+
+    @FXML
+    private Button buttonHome;
+
+    @FXML
+    private Button buttonProgressaoEvento;
+
+    @FXML
+    private Label label;
+
+    @FXML
+    private ImageView perfil1;
+
+    @FXML
+    private ImageView perfil2;
+
+    @FXML
+    private ImageView verificado;
+
+    @FXML
+    private Button visualizarPerfil;
+
+    @FXML
+    void onbuttonChatpressed(MouseEvent event) {
+
+    }
+
+    @FXML
+    void onbuttonEventospressed(MouseEvent event) {
+
+    }
+
+    @FXML
+    void onbuttonHomepressed(MouseEvent event) {
+
+    }
+
+    @FXML
+    void onprogressaoEventopressed(MouseEvent event) {
+
+    }
+
+    @FXML
+    void onvisualizarPerfilpressed(MouseEvent event) {
+
     }
     
     @Override
