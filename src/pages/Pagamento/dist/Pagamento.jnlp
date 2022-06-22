@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Pagamento.jnlp">
+  <information>
+    <title>Pagamento</title>
+    <vendor>Victor Hugo</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Pagamento.jar" size="3058" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="pagamento.Pagamento"  name="Pagamento" />
+  <update check="always"/>
+</jnlp>
