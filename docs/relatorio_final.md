@@ -239,7 +239,30 @@ Obs.: todas as informações para gerar os indicadores devem estar no diagrama d
 
 ## 7.Sistema desenvolvido
 
-Faça aqui uma breve descrição do software e coloque as principais telas com uma explicação de como usar cada uma.
+O software possui funcionalidades com o intuito de sanar demandas como realização de pagamento de serviços prestados, avaliação perante trabalhos realizados, chats para validação de proposta e não obstantemente realização de cadastro de funcionários para alocação em serviços de eventos demandados. 
+
+ 
+# Tela de Pagamento  
+
+Para fazer a utilização da mesma o método de pagamento deve ser selecionado, dentre os disponíveis se encontram pix , dinheiro e transferência. Após o clique o usuário será então direcionado para outra página, respectivamente referente a sua escolha optada. 
+
+ 
+
+# Tela de avaliação  
+
+Após escolher um funcionário será apresentada então a validação do mesmo referente a quantidade de estrelas, o usuário então deve clicar na estrela de acordo com julgamento do serviço prestado podendo esse ser de 0 estrelas a 5 estrelas. 
+
+ 
+
+# Tela de Chat  
+
+Na tela de chat o usuário pode escolher com quem deseja conversar através de conversas já visualizáveis ou mesmo buscar por uma conversa na aba de pesquisa. Para visualizar novas mensagens basta clicar no ícone de mensagem referente a uma mensagem, logo de mesmo modo para enviar uma mensagem basta digitar o que deseja na aba de baixo do chat aberto e pressionar enter. 
+
+ 
+
+# Tela de Login  
+
+Para realizar o login o usuário deve possuir cadastro no sistema, caso não possua deverá clicar em "realizar cadastro" para se cadastrar. Para efetivar seu login deve fornecer seu email e senha e clicar no botão "entrar". Se o mesmo não se lembrar de sua senha precisará clicar em "esqueci minha senha" e será direcionado a uma nova página. 
 
 ## 8. Conclusão
 
