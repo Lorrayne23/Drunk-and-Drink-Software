@@ -239,36 +239,17 @@ Obs.: todas as informações para gerar os indicadores devem estar no diagrama d
 
 ## 7.Sistema desenvolvido
 
-O software possui funcionalidades com o intuito de sanar demandas como realização de pagamento de serviços prestados, avaliação perante trabalhos realizados, chats para validação de proposta e não obstantemente realização de cadastro de funcionários para alocação em serviços de eventos demandados. 
+O software possui funcionalidades para o processo de contratação de um bar de drink por um contratante de evento, funcionários para um bar de drink, fazendo um sistema de propostas entre eles. Além disso, pela própria plataforma também será possível realizar o pagamento de um evento realizado.
 
  
 ### Tela de Pagamento  
 
-![Tela Pagamento ](/src/pages/PagamentoAreaDrinkDrunk-White.png "Diagrama de Entidade Relacionamento")
-
 Para fazer a utilização da mesma o método de pagamento deve ser selecionado, dentre os disponíveis se encontram pix , dinheiro e transferência. Após o clique o usuário será então direcionado para outra página, respectivamente referente a sua escolha optada. 
 
  
-
-### Tela de avaliação  
-
-![Tela de avaliação ](/src/pages/tela_avaliacao.png "Diagrama de Entidade Relacionamento")
-
-Após escolher um funcionário será apresentada então a validação do mesmo referente a quantidade de estrelas, o usuário então deve clicar na estrela de acordo com julgamento do serviço prestado podendo esse ser de 0 estrelas a 5 estrelas. 
-
- 
-
-### Tela de Chat  
-
-![Tela de chat  ](/src/pages/tela_chat_black.png "Diagrama de Entidade Relacionamento")
-
-Na tela de chat o usuário pode escolher com quem deseja conversar através de conversas já visualizáveis ou mesmo buscar por uma conversa na aba de pesquisa. Para visualizar novas mensagens basta clicar no ícone de mensagem referente a uma mensagem, logo de mesmo modo para enviar uma mensagem basta digitar o que deseja na aba de baixo do chat aberto e pressionar enter. 
-
- 
-
 ### Tela de Login 
 
-![Tela de Login  ](/src/pages/tela_login.png "Diagrama de Entidade Relacionamento")
+![Tela de Login  ](/src/pages/tela_login.png "Tela Login")
 
 Para realizar o login o usuário deve possuir cadastro no sistema, caso não possua deverá clicar em "realizar cadastro" para se cadastrar. Para efetivar seu login deve fornecer seu email e senha e clicar no botão "entrar". Se o mesmo não se lembrar de sua senha precisará clicar em "esqueci minha senha" e será direcionado a uma nova página. 
 
