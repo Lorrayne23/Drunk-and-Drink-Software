@@ -156,9 +156,7 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 | Cidade| Caixa de Texto| CEP Válido| |
 |E-mail| Caixa de Texto | Formato E-mail| |
 | Senha| Caixa de Texto | Caractere maiúsculo é especial| |
-| Currículo| Arquivo| PDF| |
 | Descrição de Perfil| Caixa de Texto| Máximo 50 Caractéres| |
-| Foto | Arquivo| PNG, JPEG, JPG| |
 
 
 **Adicionar Informações da Empresa**
@@ -172,7 +170,6 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 |E-mail| Caixa de Texto | Formato E-mail| |
 | Senha| Caixa de Texto | Caractere maiúsculo é especial| |
 | Descrição de Perfil| Caixa de Texto| Máximo 50 Caractéres| |
-| Logo | Arquivo|  PNG, JPEG, JPG| |
 
 **Adicionar Informações do Contratante**
 
@@ -191,12 +188,6 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 
 #### Processo 2 – Contratação do Serviço
 
-**Verificação da Disponibilidade**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Área para pesquisar por funcionário| Perfil | -- | Null |
-
 **Realização da Proposta**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
@@ -210,47 +201,15 @@ Neste processo é realizado todo o pagamento pendente aos participantes do event
 | Área para comunicação entre contratante e contratado | Chat | -- | -- |
 | Envio de orçamento | Arquivo (Gerado pelos usuários) | -- | -- |
 
-**Geração do Contrato**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Geração do contrato | Arquivo (Gerado pela plataforma) | -- | -- |
-| Assinatura do contrato | Área de texto  | Máximo 100 caracteres | -- |
-
-#### Processo 3 – Avaliação de serviço prestado
-**Buscar por tipo de serviço**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| filter | Seleção única   |  Uma opção | Bar-Tender |
-| search name  | Caixa de texto  | mínimo de 2 caracteres| nome do prestador de serviço |
-
-**Avaliar serviço prestado**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| stars count | Número  |  - | Uma estrela |
 
 
-#### Processo 4 – Pagamento
-
-**Confirmação do Evento**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Área de confirmar término evento | Botão (Sim ou não) | - | Não |
+#### Processo 3 – Pagamento
 
 **Área de pagamento**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Área para realizar o pagamento | Escolha única | - |  Null |
-
-**Área de espera de pagemento**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Espera/Recibo de pagamento (Funcionários em geral) | Arquivo (Gerado pela plataforma) | - | Null |
 
 
 ### 4.2. Tecnologias
