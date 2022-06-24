@@ -26,8 +26,7 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
+Este projeto foi desenvolvido a partir da visão de uma necessidade de negócio. Tal visão se dá pela demanda existente de um mercado de festas e eventos, em que na sua maioria são contratados os chamados Bares de Eventos. Estes bares são espaços definidos no salão de festas onde são preparados e servidos drinks na hora, por profissionais da área, os bartenders. As empresas que prestam esse serviço têm necessidades específicas, é imprescindível que o Bar seja organizado para que não prejudique no fluxo de trabalho e consequentemente afete a relação com os clientes. Também é necessária uma organização antes do evento, nada pode faltar para que não haja imprevistos e como a demanda para uma única empresa é grande em um mesmo dia, o tempo é um atributo de extrema importância. Por isso, desenvolvemos este software, Drunk&Drink é uma plataforma intuitiva e que supre as necessidades desse processo de negócio, agilizando na contratação, organização e avaliação de todos os usuários envolvidos. 
 
 ---
 .
@@ -274,26 +273,7 @@ Para fazer a utilização da mesma o método de pagamento deve ser selecionado, 
  
 ## 8. Conclusão
 
-Apresente aqui a conclusão do seu trabalho. Discussão dos resultados obtidos no trabalho, onde se verifica as observações pessoais de cada aluno. Poderá também apresentar sugestões de novas linhas de estudo.
-
-# REFERÊNCIAS
-
-Como um projeto de software não requer revisão bibliográfica, a inclusão das referências não é obrigatória. No entanto, caso você deseje incluir referências relacionadas às tecnologias, padrões, ou metodologias que serão usadas no seu trabalho, relacione-as de acordo com a ABNT.
-
-Verifique no link abaixo como devem ser as referências no padrão ABNT:
-
-http://www.pucminas.br/imagedb/documento/DOC\_DSC\_NOME\_ARQUI20160217102425.pdf
-
-
-**[1.1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
-
-**[1.2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
-
-**[1.3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
-
-**[1.4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
-
-**[1.5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
+Como conclusão deste trabalho, obtivemos um software de gerenciamento de um negócio. Nele foi desenvolvido soluções que auxiliam na contratação, organização e avaliação dos usuários. Promovendo assim uma agilidade do trabalho e uma melhora para quem contrata e quem será contratado. Obtivemos resultados promissores, com alguns pontos a serem melhorados como a interface que foi desenvolvida de maneira simples ressaltando o trabalho do back-end integrado com o Banco de Dados, isso por meio da linguagem Java. 
 
 
 
