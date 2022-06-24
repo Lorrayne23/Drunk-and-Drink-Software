@@ -244,6 +244,8 @@ O software possui funcionalidades para o processo de contratação de um bar de 
  
 ### Tela de Pagamento  
 
+![Tela Pagamento](/src/pages/TelaPagamento.jpg "Tela Pagamento")
+
 Para fazer a utilização da mesma o método de pagamento deve ser selecionado, dentre os disponíveis se encontram pix , dinheiro e transferência. Após o clique o usuário será então direcionado para outra página, respectivamente referente a sua escolha optada. 
 
  
