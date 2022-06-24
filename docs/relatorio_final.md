@@ -257,7 +257,7 @@ Para realizar o login o usuário deve possuir cadastro no sistema, caso não pos
 
 ## 8. Conclusão
 
-Apresente aqui a conclusão do seu trabalho. Discussão dos resultados obtidos no trabalho, onde se verifica as observações pessoais de cada aluno. Poderá também apresentar sugestões de novas linhas de estudo.
+Após a conclusão do trabalho pode-se discorrer sobre a necessidade de um software com tais funcionalidades demarcadas voltado para o mercado de eventos. No intuito de atender demandas corriqueiras e sanar problemas relacionados a dificuldade de comunicação entre contratantes e funcionários, pagamentos dos mesmos e avaliação em resolução de um serviço realizado. Durante a jornada de desenvolvimento alguns resultados puderam ser coletados, os mesmos referentes a atuação do software perante relação numéricas, trazendo resultados satisfatórios do ponto de vista analítico e discussional .Ao final, uma hipotética linha de propagação de estudo giraria em torno da promulgação da aplicação de modo a torná-la ambientada a um público geral, além dos patamares da universidade. 
 
 # REFERÊNCIAS
 
