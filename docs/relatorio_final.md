@@ -301,13 +301,13 @@ http://www.pucminas.br/imagedb/documento/DOC\_DSC\_NOME\_ARQUI20160217102425.pdf
 
 **Colocar link:**
 
-Do código (armazenado no repositório);
+Do código (armazenado no repositório): plf-es-2022-1-ti2-0924100-drunk-drink/Application/api_1.iml
 
-Dos artefatos (armazenado do repositório);
+Dos artefatos (armazenado do repositório): plf-es-2022-1-ti2-0924100-drunk-drink/src/
 
-Da apresentação final (armazenado no repositório);
+Da apresentação final (armazenado no repositório): 
 
-Do vídeo de apresentação (armazenado no repositório).
+Do vídeo de apresentação (armazenado no repositório): plf-es-2022-1-ti2-0924100-drunk-drink/src/pitch/Dunk&Drink.mov
 
 
 
