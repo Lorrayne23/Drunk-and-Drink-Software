@@ -220,7 +220,7 @@ Utilização do TerraER na modelagem de dados, uma plataforma gratuita e intuiti
 
 DER:
 
-![Diagrama de Entidade Relacionamento de Exemplo](/docs/imagens_modelo_dados/Modelo_de_dados.jpeg "Diagrama de Entidade Relacionamento")
+![Diagrama de Entidade Relacionamento de Exemplo](/docs/imagens_modelo_dados/DER_DrunkDrink.png "Diagrama de Entidade Relacionamento")
 
 ## 6. Indicadores de desempenho
 
@@ -252,17 +252,23 @@ Para fazer a utilização da mesma o método de pagamento deve ser selecionado, 
 
 ### Tela de avaliação  
 
+![Tela de avaliação ](/src/pages/tela_avaliacao.png "Diagrama de Entidade Relacionamento")
+
 Após escolher um funcionário será apresentada então a validação do mesmo referente a quantidade de estrelas, o usuário então deve clicar na estrela de acordo com julgamento do serviço prestado podendo esse ser de 0 estrelas a 5 estrelas. 
 
  
 
 ### Tela de Chat  
 
+![Tela de chat  ](/src/pages/tela_chat_black.png "Diagrama de Entidade Relacionamento")
+
 Na tela de chat o usuário pode escolher com quem deseja conversar através de conversas já visualizáveis ou mesmo buscar por uma conversa na aba de pesquisa. Para visualizar novas mensagens basta clicar no ícone de mensagem referente a uma mensagem, logo de mesmo modo para enviar uma mensagem basta digitar o que deseja na aba de baixo do chat aberto e pressionar enter. 
 
  
 
-### Tela de Login  
+### Tela de Login 
+
+![Tela de Login  ](/src/pages/tela_login.png "Diagrama de Entidade Relacionamento")
 
 Para realizar o login o usuário deve possuir cadastro no sistema, caso não possua deverá clicar em "realizar cadastro" para se cadastrar. Para efetivar seu login deve fornecer seu email e senha e clicar no botão "entrar". Se o mesmo não se lembrar de sua senha precisará clicar em "esqueci minha senha" e será direcionado a uma nova página. 
 
