@@ -1,6 +1,6 @@
 # Drunk&Drink
 
-
+![Diagrama de Entidade Relacionamento de Exemplo](/docs/logos/logo.png "Diagrama de Entidade Relacionamento")
 
 ## Integrantes
 
