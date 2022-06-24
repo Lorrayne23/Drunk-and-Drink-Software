@@ -30,7 +30,7 @@ _**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o 
 mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 ---
-
+.
 
 ## 1. Introdução
 
