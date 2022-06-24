@@ -125,13 +125,7 @@ Neste processo é realizada a contratação dos participantes. O contratante da 
 ![Processo 2]( /docs/imagens_modelagem_processos/Diagrama_Corrigido_Contratação_Fornecedor.png "P2")
 
 
-### 3.3.3 Processo 3 – Processo de avaliação de serviço prestado
-
-Neste processo é realizada a avaliação do serviço prestado. A avaliação será feita após o serviço ser prestado. De acordo com a avaliação recebida o funcionário terá adicionado ao seu score de avaliação a sua ultima nota, sendo assim somado a média de todas as notas já feitas sobre aquele funcionário
-
-![Processo 3](/docs/imagens_modelagem_processos/diagram_avaliacao_geral.png "P3")
-
-### 3.3.4 Processo 4 - Processo de pagamento geral.
+### 3.3.4 Processo 3 - Processo de pagamento geral.
 
 Neste processo é realizado todo o pagamento pendente aos participantes do evento. O pagamento será realizado pós a festa, já que é preciso uma confirmação para que ele seja feito. O responsável pelo pagamento é o contratante do evento, que irá liberar a quantia para cada empregado por meio da plataforma, após enviado o pagamento será gerado uma nota fiscal de pagamento.
 
@@ -278,7 +272,6 @@ Usar o seguinte modelo:
 | **Indicador** | **Objetivos** | **Descrição** | **Cálculo** | **Fonte dados** | **Perspectiva** |
 | --- | --- | --- | --- | --- | --- |
 | cadastramentos | medir a quantidade de cadastramentos na plataforma | mede a porcentagem de cadastros na plataforma por semana | ∑ cadastros  | tabela pessoa | processos internos |
-| avaliações| medir a quantidade de avaliações dos serviços prestados nos eventos pela plataforma | mede a porcentagem de avaliações feitas pela plataforma por semana | ∑ avaliações | Tabela funcionários | Processos internos |
 | eventos | medir a quantidade de eventos feitos pela plataforma| mede a porcentagem de eventos realizados por dia | ∑ eventos | Tabela eventos | processos internos |
 | pagamentos pela plataforma | medir quantidade de pagamentos realizados pela plataforma| mede a porcentagem de pagamentos feitos pela plataforma realizados por semana | eventos - pagamentos | Tabela pagamento | processos internos |
 | evento por bar | medir quantidade de eventos realizados| mede a porcentagem de eventos realizados por bar no mês | ∑ eventos | Tabela evento |cliente |
