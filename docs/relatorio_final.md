@@ -285,7 +285,7 @@ Do código (armazenado no repositório): plf-es-2022-1-ti2-0924100-drunk-drink/A
 
 Dos artefatos (armazenado do repositório): plf-es-2022-1-ti2-0924100-drunk-drink/src/
 
-Da apresentação final (armazenado no repositório): 
+Da apresentação final (armazenado no repositório): plf-es-2022-1-ti2-0924100-drunk-drink/src/Drunk&Drink(apresentacaoFinal).pptx
 
 Do vídeo de apresentação (armazenado no repositório): plf-es-2022-1-ti2-0924100-drunk-drink/src/pitch/Dunk&Drink.mov
 
