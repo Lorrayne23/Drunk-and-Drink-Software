@@ -241,23 +241,34 @@ Obs.: todas as informações para gerar os indicadores devem estar no diagrama d
 
 O software possui funcionalidades para o processo de contratação de um bar de drink por um contratante de evento, funcionários para um bar de drink, fazendo um sistema de propostas entre eles. Além disso, pela própria plataforma também será possível realizar o pagamento de um evento realizado.
 
- 
-### Tela de Pagamento  
-
-![Tela Pagamento](/src/pages/TelaPagamento.jpg "Tela Pagamento")
-
-Para fazer a utilização da mesma o método de pagamento deve ser selecionado, dentre os disponíveis se encontram pix , dinheiro e transferência. Após o clique o usuário será então direcionado para outra página, respectivamente referente a sua escolha optada. 
-
- 
 ### Tela de Login 
 
 ![Tela de Login  ](/src/pages/tela_login.png "Tela Login")
 
 Para realizar o login o usuário deve possuir cadastro no sistema, caso não possua deverá clicar em "realizar cadastro" para se cadastrar. Para efetivar seu login deve fornecer seu email e senha e clicar no botão "entrar". Se o mesmo não se lembrar de sua senha precisará clicar em "esqueci minha senha" e será direcionado a uma nova página. 
 
+### Home
+
+Na Home cada participante terá uma tela específica levando para cenários distintos, porém todos tem em comum a tela de propostas e a tela de eventos, onde somente o contratante de eventos tem a tela de pagamento, pois é ele que irá realizar tal processo.
+	
+### Tela de propostas
+
+Na aba de propostas o contratante de evento consegue ver as propostas feitas por ele e registrar novas propostas, porém ele antes precisa possuir um evento cadastrado, da mesma forma se aplica o bar de drinks que também recebe essa proposta feita pelo contratante e consegue enviar propostas para os funcionários, onde cada um terá a opção de aceitar ou recusar.
+
+### Tela de eventos
+
+Na aba de eventos cada participantes conseguirá ver os eventos no qual já participous, tanto quanto seus dados relevantes.
+ 
+### Tela de Pagamento  
+
+![Tela Pagamento](/src/pages/TelaPagamento.jpeg "Tela Pagamento")
+
+Para fazer a utilização da mesma o método de pagamento deve ser selecionado, dentre os disponíveis se encontram pix , boleto e cartão de crédito. Após isso e caso o pagamento seja feito com sucesso, o registro será salvo e o usuário irá voltar para a home.
+
+ 
 ## 8. Conclusão
 
-Após a conclusão do trabalho pode-se discorrer sobre a necessidade de um software com tais funcionalidades demarcadas voltado para o mercado de eventos. No intuito de atender demandas corriqueiras e sanar problemas relacionados a dificuldade de comunicação entre contratantes e funcionários, pagamentos dos mesmos e avaliação em resolução de um serviço realizado. Durante a jornada de desenvolvimento alguns resultados puderam ser coletados, os mesmos referentes a atuação do software perante relação numéricas, trazendo resultados satisfatórios do ponto de vista analítico e discussional .Ao final, uma hipotética linha de propagação de estudo giraria em torno da promulgação da aplicação de modo a torná-la ambientada a um público geral, além dos patamares da universidade. 
+Apresente aqui a conclusão do seu trabalho. Discussão dos resultados obtidos no trabalho, onde se verifica as observações pessoais de cada aluno. Poderá também apresentar sugestões de novas linhas de estudo.
 
 # REFERÊNCIAS
 
