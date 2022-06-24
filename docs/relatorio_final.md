@@ -249,13 +249,19 @@ Para realizar o login o usuário deve possuir cadastro no sistema, caso não pos
 
 ### Home
 
+![Home](/src/pages/dashboard.jpeg "Home")
+
 Na Home cada participante terá uma tela específica levando para cenários distintos, porém todos tem em comum a tela de propostas e a tela de eventos, onde somente o contratante de eventos tem a tela de pagamento, pois é ele que irá realizar tal processo.
 	
 ### Tela de propostas
 
+![Tela Proposta](/src/pages/proposta.jpeg "Tela Proposta")
+
 Na aba de propostas o contratante de evento consegue ver as propostas feitas por ele e registrar novas propostas, porém ele antes precisa possuir um evento cadastrado, da mesma forma se aplica o bar de drinks que também recebe essa proposta feita pelo contratante e consegue enviar propostas para os funcionários, onde cada um terá a opção de aceitar ou recusar.
 
 ### Tela de eventos
+
+![Tela Evento](/src/pages/eventos_final.jpeg "Tela Eventos")
 
 Na aba de eventos cada participantes conseguirá ver os eventos no qual já participous, tanto quanto seus dados relevantes.
  
