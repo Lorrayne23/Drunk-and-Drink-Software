@@ -220,7 +220,7 @@ Utilização do TerraER na modelagem de dados, uma plataforma gratuita e intuiti
 
 DER:
 
-![Diagrama de Entidade Relacionamento de Exemplo](/docs/imagens_modelo_dados/DER_DrunkDrink.png "Diagrama de Entidade Relacionamento")
+![Diagrama de Entidade Relacionamento de Exemplo](/docs/imagens_modelo_dados/Modelo_de_dados.jpeg "Diagrama de Entidade Relacionamento")
 
 ## 6. Indicadores de desempenho
 
