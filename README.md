@@ -1,8 +1,10 @@
 # Drunk&Drink
 
+The software makes easy  gestion  of workers during a event related to parties, above selecting the ideal candidate to the right vancancy, creating contracts and making payments through the lifeclicle of the event . 
+
 ![logo](/docs/logos/logo.png "logo")
 
-## Integrantes
+## Team Members
 
 * Isabela Mendonça Silveira 
 * Lorrayne Reis Silva
@@ -10,21 +12,10 @@
 * Pablo Augusto Carneiro Magalhães
 * Victor Hugo Criscollo Moreira
 
-## Professor
+## Teachers
 
 * Hugo Bastos de Paula
 * Joyce Christina de Paiva Carvalho
 
-## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
-
-## Histórico de versões
-
-* 0.1.1
-    * CHANGE: Atualização das documentacoes. Código permaneceu inalterado.
-* 0.1.0
-    * Implementação da funcionalidade X pertencente ao processo P.
-* 0.0.1
-    * Trabalhando na modelagem do processo de negócios.
 
